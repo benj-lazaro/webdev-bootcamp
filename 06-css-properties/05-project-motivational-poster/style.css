@@ -1,0 +1,24 @@
+/* Element Selector */
+html {
+    background-color: black;
+}
+
+
+h1 {
+    text-transform: uppercase;
+}
+
+/* Class Selector */
+.poster {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.motivational-photo {
+    border: 5px solid white;
+    width: 100%;
+}
