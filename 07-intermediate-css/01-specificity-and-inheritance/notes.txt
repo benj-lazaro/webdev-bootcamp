@@ -1,0 +1,25 @@
+CSS Cascading Order
+===================
+
+By position
+-----------
+- The last defined CSS rule is rendered on the browser
+- If all categories are EQUAL, the Position order of the CSS rule is followed
+
+By Specificity
+--------------
+- ID selector (highest)
+- Attribute selector
+- Class selector
+- Element selector (least)
+
+By Type
+-------
+- Inline CSS (highest)
+- Internal CSS
+- External CSS (least)
+
+By Importance
+-------------
+- Using the "!important" keyboard beside a CSS rule disregards previously defined rules
+- BUT can be overriden by Specificity
