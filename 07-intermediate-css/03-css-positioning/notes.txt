@@ -1,0 +1,66 @@
+CSS Positioning
+===============
+- Demo (https://appbrewery.github.io/css-positioning/)
+
+Static
+------
+- HTML default flow
+- Each item in a web page would be arranged (flow) as they're written in HTML code
+- NO need to define the CSS rule 'position: static' as it is applied by default
+- It goes to the bottom of the previous element
+
+Syntax:
+
+selector {
+    positon: static;
+    left: <value>px;
+    top: <value>px;
+}
+
+
+Relative
+--------
+- Positions an item that is relative to it's default (or static) position
+- It is "pushed" relatively using the defined left & top positions
+
+Syntax:
+
+selector {
+    positon: relative;
+    left: <value>px;
+    top: <value>px;
+}
+
+
+Absolute
+--------
+- Positions an item relative to the nearest positioned ancestor
+    - Ancestor element has with CSS rule of 'position: relative'
+- Positions an item to the top-left corner of the web page if it DOES NOT have a positioned ancestor
+
+- The 'z-index' determines which element goes on top of another element in the z-axis
+    - Element with a higher z-index value goes on top
+    - All elements have a default z-index  value of 0
+
+- Setting an element with a position of 'absolute' remove the element from the HTML default flow
+    - Place the element on a different layer
+    - This affects the z-index of the element
+
+Syntax:
+
+selector {
+    positon: relative;
+    left: <value>px;
+    top: <value>px;
+}
+
+selector {
+    z-index: <value>;
+}
+
+
+Fixed
+-----
+- Positions an item relative to the top left-corner of the browser window (NOT the web page)
+- The item's position is fixed and will NOT move even when scrolling (up/down) the web page
+
