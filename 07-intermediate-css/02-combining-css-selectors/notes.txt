@@ -1,0 +1,67 @@
+Ways To Combine CSS Selectors
+=============================
+
+Group
+-----
+- Use a ',' in-between a group of CSS selectors
+- Defined rule(s) applies to the specified CSS selectors
+
+Syntax:
+
+selector, selector {
+    property: value;
+}
+
+
+Child / Direct Child
+--------------------
+- Use a '>' in-between CSS selectors
+- Left-hand side of '>' = Parent CSS selector
+- Right-hand side of '>' = direct (1 level-nested down) Child CSS selector
+- Defined rule(s) applies to the direct child CSS selector
+
+Syntax:
+
+selector > selector {
+    property: value;
+}
+
+
+Descendant
+----------
+- Use a ' '  in-between CSS selectors
+- Left-hand side of ' ' = Parent CSS selector
+- Right-hand side of ' ' = Descendant CSS selector
+- Defined rule(s) applies to ALL descendants of the parent CSS selector
+
+Syntax:
+
+selector selector {
+    property: value;
+}
+
+
+Chaining
+--------
+- Chain CSS selectors together; NO space in-between selectors
+- Often the Element selector is typed first followed by other CSS selectors
+- Target VERY SPECIFIC elements
+- Defined rule(s) applies to ALL selectors that are True
+
+Syntax:
+
+selectorselector {
+    property: value;
+}
+
+
+Combining Combiners
+-------------------
+- Combining other CSS combiners together
+- Often used to target an ancestor selector and a descendant selector defined with combined selectors
+
+Syntax:
+
+selector selectorselector {
+    property: value;
+}
