@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .grid-container {
+      display: grid;                          /* Use the CSS Grid on the parent element */
+      grid-template-columns: 1fr 1fr;         /* 2 columns of equal size (fraction) */
+      grid-template-rows: 100px 200px 200px;  /* 3 rows with 100px, 200px & 200px in height */
+      gap: 30px;                              /* With a 30px gap in-between rows */
+    }
+
+    .first {
+      grid-column: span 2;                    /* Merge the 2 columns of the 1st row into a single element */
+    }
+
+    .card {
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Grid</h1>
+  <div class="grid-container">
+    <div class="first card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+
+</body>
+
+</html>

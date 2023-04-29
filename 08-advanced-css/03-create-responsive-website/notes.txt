@@ -1,0 +1,27 @@
+To Make A Website Responsive
+============================
+
+Media Queries
+-------------
+- Responsively adjusts the layout of the contents based on the device's current screen size/dimension
+
+
+CSS Grid
+--------
+- Offers a flexible way of laying out content in a web page
+- Applies to 2-D layouts (e.g. columns & rows)
+
+
+CSS Flexbox
+-----------
+- Offers a 1-D layout of content in a web page
+- Layout content as boxes on the horizontal or vertical plane
+
+
+External Framework (e.g. Bootstrap)
+-----------------------------------
+- Comes with extensive amount of pre-defined CSS classes 
+- In terms of responsiveness, Bootstrap has its own Flexbox-like system
+    - Bootstrap is built on top of CSS Flexbox
+    - It has 12 division system
+    - A full-width row is divided into 12-equal portions

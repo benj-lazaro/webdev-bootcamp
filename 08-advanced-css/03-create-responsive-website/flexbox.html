@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox</title>
+  <style>
+    .flex-container {
+      display: flex;                /* Use Flexbox CSS on the parent element */
+    }
+
+    .card {
+      background: blue;           /* Color properties of the targeted elements */
+      border: 30px solid white;   /* Border properties of the targeted elements */
+      height: 100px;                /* Height of the targeted elements */
+      flex: 1;                      /* Divide the width of the row equally to all targeted elements */
+    }
+
+    .first {
+      flex: 2;                      /* Occupy twice the normal width of the remaining targeted elements */
+    }
+
+    .second {
+      flex: 0.5;                    /* Occupy half of the normal width of the remaining targeetd elements */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Flexbox</h1>
+  <div class="flex-container">
+    <div class="first card"></div>
+    <div class="second card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+
+
+</body>
+
+</html>
