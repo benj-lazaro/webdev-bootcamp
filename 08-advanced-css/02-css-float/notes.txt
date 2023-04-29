@@ -1,0 +1,38 @@
+CSS Float
+=========
+- NOTE: It is recommended to use 'float' only to wrap text content around images
+- For complex layouts (and in modern web design), use CSS Flexbox, CSS Grid or Bootstrap instead
+
+
+float: left
+-----------
+- An element (often an image) enclosed within a parent with a 'block-inline' display
+- Moves the element to 'float' to the left-hand side of its neighboring element
+- Effectively placing the neighboring element on the right-hand of the targeted element (e.g. image)
+
+
+Syntax:
+
+selector {
+    float: left;
+}
+
+
+float: right
+------------
+- An element (often an image) enclosed within a parent with a 'block-inline' display
+- Moves the element to 'float' to the right-hand side of its neighboring element
+- Effectively placing the neighboring element on the left-hand of the targeted element (e.g. image)
+
+
+Syntax:
+
+selector {
+    float: right;
+}
+
+
+clear: <left | right | both>
+----------------------------
+- Clears the responsibility of an element to wrap-around (float) to its neighboring element
+- This for an element preceeded with a neighboring element assigned with a 'float' property
