@@ -1,0 +1,54 @@
+CSS Display
+===========
+- Demo tool: https://appbrewery.github.io/css-display/
+
+
+Inline
+------
+- Display contents initially typed on separate rows to be on the same row (inline) with each other
+- HTML tag <span> has a default CSS 'display' property set to 'inline'
+- Can NOT set the element's height & width; they default to the size of the content
+
+Syntax:
+
+selector {
+    display: inline;
+}
+
+
+Block
+-----
+- Displays a content by using the entire row and pushes neighboring content on the following row below
+- Most HTML tag has a default CSS 'display' property set to 'block'
+
+Syntax:
+
+selector {
+    display: block;
+}
+
+
+Inline-Block
+------------
+- Display contents on the same row (line) like 'Inline'
+- BUT unlike 'Inline', this property allows to set the element's height and width
+- Content is responsive to the screen size
+
+
+Syntax:
+
+selector {
+    display: inline-block;
+}
+
+
+None
+----
+- Makes the content on the web page disappear.
+- Useful to making an element tentatively disppear after a certain operation
+
+Syntax:
+
+selector {
+    display: none;
+}
