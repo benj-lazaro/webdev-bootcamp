@@ -1,0 +1,41 @@
+Media Query
+===========
+
+Screen Size
+-----------
+- Styling based on pre-defined screen sizes (in px)
+
+Syntax:
+
+@media (min-width: <value>px) and (max-width: <value>px) {
+    selector {
+        property: value;
+    }
+}
+
+@media screen and (max-width: <value>px) {
+    selector {
+        property: value;
+    }
+}
+
+
+
+Device
+------
+- Styling based on the orientation of the device
+
+Syntax:
+
+@media screen(orientation: landscape) {
+    /* CSS styles for landscape orientation */
+}
+
+
+- Printing orientation
+
+Syntax:
+
+@media print(orientation: landscape) {
+    /* CSS styles for landscape orientation */
+}
