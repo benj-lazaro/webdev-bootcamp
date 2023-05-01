@@ -1,0 +1,31 @@
+Flex Direction
+==============
+
+- By default, Flexbox has a 'flex-direction' property with a value set to 'row'
+    - Visualize each item within a Flexbox container stacked-up side-by-side on the same row
+    - The 'row' where items are placed is referred to as the 'main-axis'
+    - Item are placed from left to right on the same row (or horizontal plane)
+    
+    - The 'cross-axis' remain perpendicular to the 'main-axis'
+    - Where it orients items within a Flexbox container from top-to-bottom
+
+
+- If the 'flex-direction' is set to 'column'
+    - Items within the container is stacked up together from top-to-bottom on the same column
+    - The 'column' where the items are placed is referred to as the 'main-axis'
+    - Items are placed from top to bottom on the same column (or vertical plane)
+
+    - The 'cross-axis' remains perpendicular to the 'main-axis' (this time  on the horizontal plane)
+    - Where it orients items within a Flexbox container from left-to-right
+
+
+- The Flexbox property 'flex-basis'
+    - This property can ONLY be set on the CHILDREN within a Flexbox container
+
+    - If the 'flex-direction' is set to 'row'
+        - The 'flex-basis' property sets the width of each item w/in a Flexbox container
+        - It flexes each item w/in the container along the main-axis (horizontal plane)
+
+    - If the 'flex-direction' is set to 'column'
+        - The 'flex-basis' property sets the height of each item w/in a Flexbox container 
+        - It flexes each item w/in the container along the main-axis (vertical plane)
