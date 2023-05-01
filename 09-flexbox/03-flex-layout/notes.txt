@@ -1,0 +1,73 @@
+Flex Layout
+===========
+- Guide (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+- Flexbox property 'order'
+    - Implemented on Flexbox container items (child)
+    - Handles the order of items
+    
+    - The default value of 0 = arranges items based on how they're written in HTML
+    - The 'order' value of 1 or higher = moves the targeted item at the end of the Flexbox container
+
+    - If the main-axis is located on the horizontal plane, the end of the Flexbox container is on the left
+    - If the main-axis is located on the vertical plane, the end of the Flexbox container is
+
+
+- Flexbox property 'flex-wrap'
+    - Implemented on the Flexbox container (parent)
+    - It has a default value of 'nowrap'
+
+    - It is useful when running out of space on the horizontal plane
+    - It allows additional Flexbox items to wrap around, down to the next row
+
+    - Demo (https://appbrewery.github.io/flex-layout/)
+
+    - The value of 'wrap-reverse', places the last Flexbox container item as the 1st item
+        - ONLY when the horizontal plane ran out of space
+
+
+- Flexbox property 'justify-content'
+    - Implemented on the Flexbox container (parent)
+    - It sets the distribution of the items along the main-axis of the Flexbox container
+    
+    - The value of 'flex-start' bunches up the items to the left of the horizontal plane main-axis
+    - The value of 'flex-end' bunches up the items to the left of the horizontal plane main-axis
+    - The value of 'center' moves the items to the center of the horizontal plane main-axis
+    - The value of 'space-between' inserts space in-between items on the horizontal plane of the main-axis
+        - 1st and last items are stuck to the corresponding end of the Flexbox container
+
+    - The value of 'space-around' inserts space around each item on the horizontal plane of the main-axis
+        - Space size between the 1st and last item to the edge of the container adds up
+        - As the space size between each item on the horizontal plane of the main-axis
+
+    - The value of 'space-evenly' inserts equal spaces around each item on the horizontal plane
+
+
+- Flexbox property 'align-items'
+    - Implemented on the Flexbox container (parent)
+    - It sets the distribution of items along the cross-axis of the Flexbox container
+    
+    - NOTE: set the property 'flex-wrap' to 'nowrap' in order to work
+
+    - The value 'flex-start' bunches up the items to the top of the vertifcal plane cross-axis
+    - The value 'flex-end' bunches up the items to the bottom of the vertifcal plane cross-axis
+    - The value 'center'  bunches up the items to the center of the vertifcal plane cross-axis 
+    - The value 'stretch' expands each item to fill-up the entirety of the cross-axis
+
+
+- Flexbox property 'align-self'
+    - Implemented on the Flexbox container item (child)
+    - It positions an item to any location along the cross-axis
+
+    - The value 'flex-start' moves the targeted item to the top of the vertical plane
+    - The value 'flex-end' moves the targeted item to the bottom of the vertical plane
+    - the value 'stretch' expands the item to full-up tne entirety of the cross-axis
+
+
+- Flexbox property 'align-content'
+    - Implemented on the Flexbox container (parent)
+    
+    - NOTE: set the property 'flex-wrap' to 'wrap' in order to work
+    
+    - The value 'flex-start' moves the targeted item to the top of the vertical plane
+    - The value 'flex-end' moves the targeted item to the bottom of the vertical plane
