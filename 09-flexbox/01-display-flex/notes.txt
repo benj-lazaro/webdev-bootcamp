@@ -7,8 +7,8 @@ Flexbox
 - Flexbox handles the overall page structure
 
 
-To use Flexbox
---------------
+How to use Flexbox
+-------------------
 - Flexbox is 'declared' within the 'container'
     - Often a <div> element with a class of 'container'
     - Target the '.container' in CSS
@@ -21,15 +21,17 @@ Example:
     ...
 }
 
-- Using Flexbox and enclosed elements within a flexbox '.container':
-    - Their default 'display' property will be ignored & set to 'inline'
-    - Their 'width' property will be based on the size of their content
-    - The 'gap' property provides space in-between elements; expressed as px or rem
+- Flexbox items w/in the Flexbox container
+    - Ignore their default 'display' property and set them to 'inline'
+    - Width of each item will be based on the size of their content
 
-- By default, a Flexbox container functions has a 'display' property with a value of 'block'
-    - It consumes a 'width' of '100%'
+- Flexbox property 'gap' provides the space in-between items w/in the container
+    - The value is expressed as em or px
 
-- Another way is to create a Flexbox container by assigning 'display' property with a value of 'inline-flex'
-    - Functions similarly to the 'display' property with the value of 'inline-block'
-    - Allows the container to occupy as much space it needs 
-    - BUT allows other elements to occupy the remaining available space of the same row
+- By default, a Flexbox container has a 'display' property set to 'block'
+    - It consumes the entire row with a 'width' set to '100%'
+
+- A Flexbox container's 'display' property can be assigned with a value of 'inline-flex'
+    - It behaves similarly to 'inline-block'
+    - It allows a Flexbox container to occupy as much as it needs
+    - It allows other elements after the container to occupy the remaining space on the same row
