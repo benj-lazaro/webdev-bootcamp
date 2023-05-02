@@ -1,0 +1,68 @@
+<!-- Flex Sizing Demo -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            border: 1px black solid;
+        }
+
+        .items {
+            /* width: 100px; */
+            flex-basis: 100px;      /* Ignores the width property & sets the width of Flexbox items */
+            /* max-width: 100px;       Enforce the maximum width of the Flexbox items */
+            /* min-width: 300px;       Enforce the allowed minimum width of Flexbox items*/
+            flex-grow: 1;           /* Allows items expand beyond the flex-basis value */
+            flex-shrink: 1;         /* Alows items to shrink beyond the flex-basis value */
+            /* flex: 1 1 0             Shorthand for flex-grow of 1, flex-shrink of 1 & flex-basis of 0 */
+            /* flex: 1                 Another shorthand */
+        }
+
+        .home {
+            background-color: #06AFF6;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            color: white;
+            padding: 10px;
+        }
+        .about {
+            background-color: #008E94;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            color: white;
+            padding: 10px;
+        }
+
+        .contact {
+            background-color: #12E1C6;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            color: white;
+            padding: 10px;
+        }
+
+        .school {
+            background-color: #1CD3FC;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <p class="home items">Home</p>
+    <p class="about items">About</p>
+    <p class="contact items">Contact Us</p>
+    <p class="school items">The Best Programming School in the World</p>
+    </div>
+    
+</body>
+</html>

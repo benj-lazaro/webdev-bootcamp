@@ -1,0 +1,115 @@
+Flex Sizing
+===========
+- The following priority list describes how Flexbox determines the size of each item w/in a Flexbox container:
+
+    Content width < Width < flex-basis < min-width / max-width
+
+
+- This is how it works:
+    - Checks if there is a 'min-width' or 'max-width' property is set on the Flexbox item
+        - min-width = looks at the longest word
+            - If the 'flex-basis' value > 'min-width' value, the 'flex-basis' gets implemented
+            - If the 'flex-basis' value < 'min-width' value, the 'min-width' gets implemented
+            - Items shrinks down until the 'mid-with' value is reached
+
+        - max-width = looks at the longest possible line of text on a single row
+            - If the 'flex-basis' value > 'max-width' value, the 'max-width' gets implemented
+            - If the 'flex-basis' value < 'max-width' value, the 'flex-basis' gets implemented
+
+    - If not, checks if 'flex-basis' property is set
+        - It sets the width of items in a row-based Flexbox or height on a column-based Flexbox
+
+    - If not, checks if the 'width' property (or 'height' property) is set
+        - refers to the width on a row-based Flexbox
+        - refers to the height on a column-based Flexbox 
+
+    - If not, it checks and set the 'width' property based on the content
+        - It allows the content text to be lined up next to each other
+        - If the Flexbox container shrinks, it wraps the content and stack on top of each other
+
+
+- Items in a Flexbox Container when the browser window shrinks.
+    - Automatically shrinks down to the minimum content size (based on longest word content)
+    - Resulting to some of the text content being stacked on top of each other
+
+
+- The 'flex-grow' and 'flex-shrink' properties handles the growth & shrinking width of the window.
+    - The value of '0' disables the said properties
+    - The value of '1' enables them
+
+    - The 'flex-grow: 1' allows the Flexbox items in a container to grow
+        - With the initial starting value based on the 'flex-basis' property
+        - Increases further until all of items have consumed the available space in a container row
+        - Basically grows up to the 'max-width' of the row
+
+    - The 'flex-shrink: 1' allows the Flexbox items in a container to shrink
+        - Beyond the size stated by the 'flex-basis' property
+        - Shrink until it reaches the 'min-width' of the item's Content
+        - Basically shrinks down to the 'min-width' of the row
+
+    - If the properties 'max-width' or 'min-width' are not set 
+        - Flexbox will check the length of the items' content
+
+    - The properties 'flex-grow' and 'flex-shrink' are DEFAULT size settings of the Flexbox
+        - Even if these properties are NOT set, Flexbox will behave accordingly by default
+        - Enabling both properties, ignores the 'flex-basis' property
+
+
+- The 'flex-basis' has a default of 'auto'
+    - It looks at the amount of content on each of the container items
+    - It gives more width to the item with more content
+    - It gibes less width to the item with less Content
+    - Assigning a value of '0' grants the container items equal width
+
+- The 'flex' shorthand is as folllows:
+
+Syntax:
+
+selector {
+    flex: <flex-grow> <flex-shrink> <flex-basis>;
+}
+
+
+- A flex of 1 means:
+    - flex-grow: 1
+    - flex-shrink: 1
+    - flex-basis: 0
+
+
+- A flex of 2 means:
+    - flex-grow: 2
+    - flex-shrink: 2
+
+- A flex of 3 means:
+    - flex-grow: 3
+    - flex-shrink: 3
+
+
+- Related exercise (https://appbrewery.github.io/flexbox-sizing-exercise/)
+
+- Exercise Solution:
+
+/* Write your CSS code below to make the blue items size, grow and shrink like the green ones.*/
+
+.container {
+  justify-content: space-between;
+}
+  
+.container > * {
+
+}
+
+.item1 {
+flex-basis: 200px;
+flex-shrink: 1;
+}
+
+.item2 {
+flex-basis: 200px;
+flex-shrink: 0;
+}
+
+.item3 {
+flex-basis: 400px;
+flex-shrink: 0;
+}
