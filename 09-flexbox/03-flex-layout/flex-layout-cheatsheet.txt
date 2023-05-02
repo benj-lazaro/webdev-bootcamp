@@ -1,0 +1,27 @@
+Flex Layout Cheatsheet
+======================
+
+Flex container 
+--------------
+flex-direction: row | row-reverse | column | column-reverse
+
+flex-wrap: nowrap | wrap | wrap-reverse
+
+align-content: flex-start | flex-end | space-between | space-evenly | space-around | stretch
+
+align-items: flex-start | flex-end | center | baseline
+
+justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+
+
+Flex container items
+--------------------
+order: <default is 0>
+
+flex-shrink: <default is 1>
+
+flex-grow: <default is 0>
+
+flex-basis: <default auto; expressed in em or px>
+
+align-self: auto | flex-start | flex-end | center | baseline | stretch
