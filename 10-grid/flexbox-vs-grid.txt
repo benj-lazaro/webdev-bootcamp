@@ -1,0 +1,24 @@
+Flexbox
+=======
+- A tool that helps align content along a 1-dimensional line
+- Good for 1-dimensional alignment
+
+
+Grid
+====
+- A tool that help align content along a 2-dimensional grid
+- Good for 2-dimensional layout
+- Gaps between items matches up when the screen shrinks
+
+
+Flexbox + Grid
+==============
+- Most Web Developers combine Flexbox, Grid and other CSS frameworks (Bootstrap) to create their design
+- Sometimes Flexbox is used on one or more items  of Grid
+- Sometimes Grid is used on one or more items of Flexbox
+
+
+Interactive Comparison Chart
+============================
+https://appbrewery.github.io/grid-vs-flexbox/
+

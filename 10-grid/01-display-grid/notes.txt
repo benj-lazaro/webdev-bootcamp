@@ -1,0 +1,22 @@
+CSS Grid Notes
+==============
+- A two-dimensional layout system
+
+- Grid is 'declared' within the 'container'
+    - Often a <div> element with a class of 'container'
+    - Target the '.container' in CSS
+
+Example:
+
+.container {
+    display: grid;
+    grid-template-columns: <col1>fr <col2>fr ... ;  /* number and size of columns */
+    grid-template-rows: <row1>fr <row2>fr ...;      /* number and size of rows */
+    gap: <value>px;                                 /* gap size between grid items */
+}
+
+
+- Default behavior for Grid container:
+    - It tries to take up the full width (need to adjust the 'width' property)
+    - Only have as much height as it allows to fit the content (does NOT need to change the 'height' property)
+
