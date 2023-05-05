@@ -1,0 +1,157 @@
+Grid Placement
+==============
+
+Grid Container
+--------------
+- Often a <div> element with the a class of 'container'
+- It stores all Grid Items.
+
+
+Grid Items
+----------
+- Items stored inside a Grid Container.
+- Created from multiple Grid Cells.
+
+
+Tracks
+------
+- Collectively refer to the rows and/or columns created using the property:
+    - 'grid-template-rows'
+    - 'grid-template-columns'
+
+    - Rows = Row Tracks
+    - Column = Column Tracks
+
+
+Grid Cells
+----------
+- They sit within the intersection of the tracks.
+    - They are the smallest unit in CSS Grid
+    - A Grid Item is created from multiple Grid Cells
+
+
+Grld Lines
+----------
+- These are the horizontal and vertical lines that separate the Grid Tracks.
+    - Controlled using the property 'gap' to specify the height or width
+    - Their color or content can NOT be changed
+    - They are used for layout purposes only
+
+
+- It is all of these items combined together that allows the creation of layouts using CSS Grid.
+
+- Upon the creation of a Grid.
+    - By default, 1st Grid Item goes to the upper-left corner of the 1st Grid Cell
+    - Suceeeding Grid Items goes to the upper-left corner of the corresponding Grid Cells
+        - 1 Grid Item per Grid Cell 
+
+NOTE: To center Gric Item using Flexbox is as follows:
+    - Set the CSS rules for the Grid Item
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+grid-column-start
+-----------------
+- Implemented on a Grid Item.
+- Instructs Grid which Grid Cell this specific Grid Item will start from.
+- Assigning the value of "1" means to 'start' at the lefthand-most Grid Cell in the current row.
+
+Syntax:
+
+.item {
+    grid-column-start: <grid_cell_number>;
+}
+
+
+grid-column-end
+---------------
+- Implemented on a Grid Item.
+- Instructs Grid which Grid Cell this specific Grid Item will end to.
+- Assigning the value of "-1" means to 'end' at the righthand-most Grid Cell in the current row.
+
+Syntax:
+
+.item {
+    grid-column-start: <grid_cell_number>;
+    grid-column-end:  <grid_cell_number>;
+}
+
+Example:
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;                /* 2 rows of equal height */
+    grid-template-columns: 1fr 1fr 1.5fr;       /* 2 columns of equal width & slighty bigger 3rd column */
+    gap: 3rem;
+    height: 100vh;                              /* Grid Container occupies the entire screen */
+}
+
+.cowboy {
+    background-color: #00b9ff;
+    grid-column-start: 2;                       /* Grid Item starts at Grid Cell 2*/
+    grid-column-end: 4;                         /* End at Grid Cell 4 w/c is equivalent to 'span 2' */
+}
+
+
+NOTE: 'grid-column-start' & 'grid-column-end' are the longhand properties of 'grid-column'
+NOTE: 'grid-row-start' & 'grid-row-end' are the longhand properties of 'grid-row'
+
+
+order
+-----
+- Implemented on a Grid Item.
+- By default, each Grid Item has a default value of '0'.
+- Assigning a higher value (i.e. '1' or any number greater than 0) will: 
+    - Move /shift a Grid Item to the bottom-most or rightmost Grid Cell within a Grid Container
+    - Shift direction moves from left to right and from top to bottom of the Grid
+
+
+Example:
+
+  .astronaut {
+    background-color: #03989e;
+    order: 1;                                    /* Shifts to the rightmost Grid Cell of the next row */
+  }
+
+
+grid-area
+---------
+- This is a shorthand property for:
+    - grid-column-start & grid-column-end
+    - grid-row-start & grid-row-end
+
+Syntax:
+
+selector {
+    grid-area: <row_start> / <column_start> / <row_end> / <column_end>
+}
+
+Example:
+
+.grid_item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid_item {
+    grid-area: 2 / 1 / 3 / 3
+}
+
+NOTE: If a Grid Item used the 'grid-area' property the rest of the Grid Item MUST use the same.
+      This is to ensure that every Grid Item will behave (in the layout) as expected
+
+
+
+Overlapping Layout
+------------------
+- CSS Grid (unlike CSS Flexbox) allows to overlay Grid Items over other Grid Items.
+
+
+CSS Grid Exercise
+-----------------
+https://appbrewery.github.io/gridgarden/
