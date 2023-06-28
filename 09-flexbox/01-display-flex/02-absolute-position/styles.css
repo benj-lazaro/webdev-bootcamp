@@ -1,0 +1,38 @@
+/* position sets how an element is position in a document */
+
+/* 'relative' positions an element according to the normal document flow */
+/* Then offset relative to itself based on 'top', 'left', 'bottom' and 'right' properties */
+
+/* 'absolute' removes the element from the normal doument flow */
+/* no space is created fro the element in the page layout */
+/* Positions the element relative to its closest positioned ancestor */
+/* Final position determined by 'top', 'left', 'bottom' and 'right' properties */
+
+/* Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/position?v=example) */
+
+div {
+  display: inline-block;
+  background-color: blueviolet;
+}
+
+.one {
+  width: 25%;
+  /* Remove this element from the normal document flow */
+  position: absolute;
+}
+
+.two {
+  width: 25%;
+  /* Remove this element from the normal document flow */
+  /* Position this element 27.25% from the left */
+  position: absolute;
+  left: 27.25%;
+}
+
+.three {
+  width: 40%;
+  /* Remove this element from the normal document flow */
+  /* Position this element 53% from the left */
+  position: absolute;
+  left: 53%;
+}

@@ -1,0 +1,17 @@
+/* display sets an element's display type */
+/* Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/display) */
+
+/* gap is a shorthand that sets the gaps between rows and columns */
+/* Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/gap) */
+
+.container {
+  /* Enable Flexbox in the container */
+  display: flex;
+  /* Set a gap of 10px between Flex Items */
+  gap: 1rem;
+}
+
+p {
+  background-color: darkseagreen;
+  padding: 0 5px;
+}

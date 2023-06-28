@@ -1,0 +1,26 @@
+/* float places an element on the left or right side of its container */
+/* The element is removed from the normal document flow */
+
+/* Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/float) */
+
+div {
+  background-color: coral;
+  margin: 10px;
+}
+
+/* Remove the elements from the normal document flow */
+/* Position each element to 'float' from the left */
+.one {
+  width: 25%;
+  float: left;
+}
+
+.two {
+  width: 25%;
+  float: left;
+}
+
+.three {
+  width: 40%;
+  float: left;
+}
