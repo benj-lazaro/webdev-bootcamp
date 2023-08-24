@@ -1,0 +1,17 @@
+/* 
+My Solution
+-----------
+- Test (https://appbrewery.github.io/grid-sizing/test.html)
+ */
+
+.grid-container {
+  /* Enable grid */
+  display: grid;
+  /* Define 3 rows; 1st & 2nd row of 1fr and 3rd row of 2fr */
+  grid-template-rows: 1fr 1fr 2fr;
+  /* Define 3 columns; 1st column of auto, 2nd column fixed at 400px & 
+  3rd column with min of 200px and max of 500px */
+  grid-template-columns: auto 400px minmax(200px, 500px);
+  /* Define future grid rows of 50px high / tall */
+  grid-auto-rows: 50px;
+}

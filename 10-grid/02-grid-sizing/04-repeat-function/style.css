@@ -1,0 +1,32 @@
+/* 
+repeat() Function
+-----------------
+- It is a CSS function that represents a repeated fragment of the Grid Track List
+
+- It allows a large number of columns and/or rows that exhibit a reoccurring pattern; written in compact form
+- It ONLY layout as many items defined in the HTML document
+
+- Additional Grid Item(s) outside the predefined 'grid-template' size will be:
+    - Appended to the following / succeeding row
+    - That Grid Item's row will be set to 'auto'
+    - That Grid Item's column will match the previous column's width
+
+- Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/repeat)
+*/
+
+.grid-container {
+  /* Enable grid */
+  display: grid;
+  /* Define 2 identical rows with a vertical height of 200px */
+  grid-template-rows: repeat(2, 200px);
+  /* Define 2 identical columns the horizontal width of 100px */
+  grid-template-columns: repeat(2, 100px);
+  /* Define the size of future rows that will be outside the predefined 'grid-template' */
+  grid-auto-rows: 300px;
+}
+
+.grid-item {
+  background-color: purple;
+  color: white;
+  border: 1px orange solid;
+}

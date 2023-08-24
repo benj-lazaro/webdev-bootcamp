@@ -1,0 +1,23 @@
+/* 
+Auto Sizing
+-----------
+- This value enable either a grid column or row to be responsive to the screen size
+- A grid column of 'auto' = try to fit 100% of the available horizontal space
+- A grid row of 'auto' = try to fit the content; does NOT fit 100% of he available vertical space
+ */
+
+.grid-container {
+  /* Enable the grid */
+  display: grid;
+  /* 1st row size = 100px, 2nd row = fits the content */
+  grid-template-rows: 100px auto;
+  /* 1st column size = 200px, 2nd columns = consumes 100% of the available horizontal space */
+  grid-template-columns: 200px auto;
+}
+
+.grid-item {
+  font-size: 3rem;
+  background-color: darkviolet;
+  border: 5px solid goldenrod;
+  color: white;
+}

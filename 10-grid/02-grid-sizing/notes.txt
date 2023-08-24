@@ -1,185 +1,24 @@
 CSS Grid Sizing
-===============
-- How to set & manipulate the column & row sizes within a Grid container
+---------------
+- How to set and manipulate the column and row sizes within a Grid Container
 
-CSS Grid Container Formal Form
------------------------------- 
+- It is advisable to be explicit when defining columns & rows using the properties:
+    - grid-template-columns
+    - grid-template-rows
+
+
+Format Form
+------------
 .grid-container {
     display: grid;
     grid-template-rows: <value>px <value>px ... <value>px;
     grid-template-columns: <value>px <value>px ... <value>px;
 }
 
-CSS Grid Container Shorthand Form
----------------------------------
+
+Shorthand Form
+_--------------
 .grid-container {
     display: grid;
-    grid-template: <row sizes> / <column sizes>;
-}
-
-NOTE: Shorthand NOT quite recommended; better to be explicit in defining the columns & rows
-
-
-Auto
-----
-- Enables the Grid column or row with the value of 'auto' to be responsive to the screen size.
-
-- A column with value of 'auto' will try to fit the 100% of the horizontal available space.
-
-- A row with value of 'auto' will NOT try to fit the 100% of the vertical available space.
-    - Instead it tries to fit to the content
-
-
-Example:
-
-    .grid-container {
-        display: grid;
-        grid-template-rows: 100px auto;    /* 1st row of 100px & reponsive 2nd row  */
-        grid-template-columns: 400px auto; /* 1st col of 400px & responsnve 2nf col  */
-        
-    }
-
-
-Fixed
------
-- The Grid's column and row sizes are explicitly defined (expressed in px or rem).
-- This does NOT make the Grid responsive to the screen size.
-
-Example:
-
-    .grid-container {
-        display: grid;
-        grid-template-rows: 100px 200px;    /* 2 rows = 100px and 200px high */
-        grid-template-columns: 400px 800px; /* 2 cols = 400px and 800px wide */
-    }
-
-
-Fractional
-----------
-- Use ratios (expressed in fr) for the size of rows & columns.
-- This makes the Grid responsive to the screen size.
-
-- The Grid cols & rows grow / shrink based on the defined fractional value.
-    - Depending on the width available for the horizontal (row)
-    - Content size for the vertical (column)
-
-Example:
-
-    .grid-container {
-        display: grid;
-        grid-template-rows: 1fr 2fr;    /* 1st row is half the size of the 2nd row */
-        grid-template-columns: 1fr 2fr; /* 1st col is half the size of the 2nd col */
-    }
-
-
-MinMax
-------
-- Define a horizontally (column) responsive Grid.
-    - A way of limiting the size of a responsive column in a grid
-    - Often applicable to an image content
-
-- minmax(<min_value>, <max_value>) defines the minimum and maximum width of a column.
-    - The column expands until it reaches the defined maximum width
-    - The column shrinks until it reaches the definex minimum width
-
-Example:
-
-    .grid-container {
-        display: grid;
-        grid-template-rows: 200px 400px;
-        grid-template-columns: 200px minmax(400px, 800px);  /* min col of 400px; max col of 800px */
-    }
-
-
-Repeat
-------
-- Allows a shorthand in writing repeated values of rows & columns of the same size.
-- It will ONLY layout as many items defined in the HTML code.
-
-
-Example:
-
-    .grid-container {
-        display: grid;
-        grid-template-rows: 200px 400px;
-        grid-template-columns: 200px minmax(400px, 800px);  /* min col of 400px; max col of 800px */
-    }
-
-
-- Additional items that does NOT fit within the defined grid-template:
-    - Gets added beneath the defined 'grid-template'
-    - Item's height will be 'auto' -> height of the content
-    - Item's width will try to match the previous column's width
-
-
-Example:
-        <style>
-            .grid-container {
-                display: grid;
-                grid-template-rows: repeat(2, 200px);       /* same as 200px 200px */
-                grid-template-columns: repeat(2, 100px);    /* same as 100px 100px */
-            }
-
-            .grid-item {
-                background-color: purple;
-                color: white;
-                border: 1px orange solid;
-            }
-
-        </style>
-    </head>
-
-    <body>
-        <div class="grid-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>  <!-- Item outside the grid-template -->
-        </div>
-    </body>
-
-
-- To create more <div> in the future, use the property:
-    - 'grid-auto-rows' for future rows
-    - 'grid-auto-columns' for future columns
-
-Example:
-        <style>
-            .grid-container {
-                display: grid;
-                grid-template-rows: 200px 200px;
-                grid-template-columns: 200px 200px;
-                grid-auto-rows: 200px;              /* Automatically adds a row for new items */
-                grid-auto-columns: 200px;           /* Automatically adds a column for new items */
-            }
-
-            .grid-item {
-                background-color: purple;
-                color: white;
-                border: 1px orange solid;
-            }
-
-        </style>
-    </head>
-    <body>
-        <div class="grid-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-        </div>
-    </body>
-
-
-- Test (https://appbrewery.github.io/grid-sizing/test.html):
-
-My Solution
-------------
-.grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr 2fr;
-    grid-template-columns: auto 400px minmax(200px, 500px);
-    grid-auto-rows: 50px;
+    grid-template: <row size> / <column size>;
 }

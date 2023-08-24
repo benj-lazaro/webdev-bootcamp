@@ -1,0 +1,28 @@
+/* 
+Fractional Size
+---------------
+- Uses ratios for the size of the grid columns and rows
+- It is expressed as 'fr'
+
+- This makes the grid responsive to the screen size
+
+- The Grid Items grows or shrinks based on the defined fr value
+    - Depending on the width available for horizontal (column)
+    - Depending on the size of the content size for the row
+*/
+
+.grid-container {
+  /* Enable grid */
+  display: grid;
+  /* Define 1st row with 1fr and twice the ratio for the 2nd row */
+  grid-template-rows: 1fr 2fr;
+  /* Define 1st column with 1fr and twice the ratio for the 2nd column */
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-item {
+  font-size: 3rem;
+  background-color: darkviolet;
+  border: 5px solid goldenrod;
+  color: white;
+}

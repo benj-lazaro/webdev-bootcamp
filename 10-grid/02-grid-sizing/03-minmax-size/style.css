@@ -1,0 +1,25 @@
+/* 
+MinMax Size
+-----------
+- It defines the minimum and maximum size of a Grid Item
+    - Often implemented on the horizontal space (width / column) for image content
+
+- The Grid Item expands until it reached the defined maximum size
+- The Grid Item shrinks until it reaches the define minimum size
+*/
+
+.grid-container {
+  /* Enable Grid */
+  display: grid;
+  /* 1st Grid Row = 200px, 2nd Grid Row = minimum of 400px & maximum of 5fr */
+  grid-template-rows: 200px minmax(400px, 5fr);
+  /* 1st Grid Column = 200px, 2nd Grid Column = minimum of 400px & maximum of 5fr */
+  grid-template-columns: 200px minmax(400px, 5fr);
+}
+
+.grid-item {
+  font-size: 3rem;
+  background-color: darkviolet;
+  border: 5px solid goldenrod;
+  color: white;
+}
