@@ -1,0 +1,16 @@
+/* Grid Demo */
+.container {
+  /* Enable grid */
+  display: grid;
+  /* Define 2 columns; the 2nd column is twice the width of the first column */
+  grid-template-columns: 1fr 2fr;
+  /* Define 2 rows of identical height */
+  grid-template-rows: 1fr 1fr;
+  /* Define a gap or grid gap of 10px between the column & row */
+  gap: 10px;
+}
+
+.container > * {
+  background-color: cadetblue;
+  margin: 0;
+}

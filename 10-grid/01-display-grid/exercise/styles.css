@@ -1,0 +1,30 @@
+/* Chessboard */
+:root {
+  --bgcolor-white: #f0d9b5;
+  --bgcolor-black: #b58863;
+  --size-height: 100px;
+  --size-width: 100px;
+}
+
+.container {
+  /* Enable grid */
+  display: grid;
+  /* Define 8 columns of equal sizes */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* Define 8 rows of equal sizes */
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* Define the width to prevent Grid from trying to take up the full width of the screen */
+  width: 800px;
+}
+
+.white {
+  height: var(--size-height);
+  width: var(--size-width);
+  background-color: var(--bgcolor-white);
+}
+
+.black {
+  height: var(--size-height);
+  width: var(--size-width);
+  background-color: var(--bgcolor-black);
+}
