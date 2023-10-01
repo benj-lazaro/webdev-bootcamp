@@ -1,0 +1,11 @@
+Horizontal Rule 
+---------------
+- A self-closing element that represents a thematic break between paragraph-level elements
+    - Often used when a shift of topic within a section
+
+- Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+
+
+Syntax
+------
+<hr />
