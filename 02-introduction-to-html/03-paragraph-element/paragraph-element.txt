@@ -1,0 +1,14 @@
+Paragraph Element
+-----------------
+- The <p> element represents a paragraph
+    - Related to formatting and putting text on a website
+    - Represented in visual media as blocks of text separated from adjacent blocks by blank lines
+
+- The <p>..</p> is a block-level element
+
+- Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+
+
+Example
+-------
+<p>This is a paragraph</p>
