@@ -1,0 +1,55 @@
+How to make most of your time
+-----------------------------
+
+Tip #1:
+- Watch the video tutorials within the 10 minute mark
+
+- Try to understand what is going on
+    - Why the code is being written
+    - Understand the purpose of the code
+    - Do NOT type or code along at the same pace
+
+- Once you've understood what those 10 minutes are about
+    - What the tutorial is trying to teach you
+
+- Then go to VS Code
+    - Type out the code
+    - Try to replicate what happened in the 10 minutes
+
+- Why this works:
+    - This forces you to really understand what's going on
+    - Absorb the content
+    - Then test yourself afterwards to see if you really understood 
+
+
+Tip #2:
+- While listening to the videos, understanding what's going on
+    - Take notes for yourself
+    - Quite useful after the 10 minutes are up
+    - Trying to remember the code and theory that was covered
+    - Use a note-taking system such as Cornell Notes
+
+
+Tip #3:
+- Do NOT skip any of the tutorials on any of the modules
+    - The curriculum is designed so that it would be a smooth sloping ramp
+
+
+Tip #4:
+- Boormark topics that you struggle with
+    - Use Tip #1 to go through the material again
+    - Research on the topic on other sourcees
+    - If that does NOT work, try to come back to it after a week
+
+
+Tip #5:
+- Persevere and continue to put in the hours to practice, to try and try again
+    - To master a skill, the most important thing is PRACTICE
+    - Watching a video = learning superficially
+
+
+Tip #6:
+- Getting stuck is very much a universal part of programming
+    - Use Google and Stack Overflow
+    - Struggle is Good
+    
