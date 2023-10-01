@@ -1,0 +1,19 @@
+HTML tag VS HTML element
+------------------------
+- An HTML tag is anything that is inside an angle bracket < >
+    - It has two names
+        - Opening tag < >
+        - Closing tag </ >
+
+- An HTML element refers to both
+    - The opening & closing HTML tag
+    - The content embedded within the HTML tag
+
+
+Example
+-------
+<!--- HTML tag --->
+<h1> </h1>
+
+<!-- HTML element  -->
+<h1>Hello there</h1>
