@@ -1,0 +1,11 @@
+Image Element
+-------------
+- The self-closing <img> element embeds an image into the document   
+    - The 'src' attribute contains the path to the image
+        - This is REQUIRED
+
+    - The 'alt' attribute holds a textual replacement for the image
+        - Mandatory for accessibility (screen readers)
+        - Gets displayed if an image can NOT be loaded for some reason
+
+- Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
