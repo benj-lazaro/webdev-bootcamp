@@ -1,0 +1,13 @@
+Anchor Element
+--------------
+- The <a> element with its 'href' attribute
+    - Create a hyperlink to
+        - Web pages
+        - Files
+        - Email addresses
+        - Locations within the same page or anything else a URL can addresses
+
+- The 'href' attribute contains the URL as assigned value
+    - This value is the hyperlink points to
+
+- Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
