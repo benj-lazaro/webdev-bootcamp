@@ -1,0 +1,16 @@
+Computer File Path
+------------------
+- A file path can direct someone (user or computer)
+    - To look into a specific location (folder) in the computer's hard drive
+    - To access a specific file
+
+- The root is the starting point of the computer's filing system
+
+- Two types of file paths
+    - Absolute  = relative to the computer's root folder
+    - Relative  = relative to the location of the current folder being accessed
+
+- Navigation special characters
+    - '..'  = go up a level from the current folder
+    - './'  = stay within the current folder & search for the targeted file
+
