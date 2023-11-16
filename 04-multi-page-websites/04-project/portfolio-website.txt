@@ -1,0 +1,11 @@
+Portfolio Website Project
+--------------------------
+- Build your first web developer portfolio
+    - Store previously created HTML file in a folder named public
+
+- Take screenshots of previously created websites
+    - Store the images in a folder named assets
+    - These screenshots will be used as preview images of their corresponding web pages
+
+- From the index.html, link to the images and web pages
+    - Stored on their respective sub-folders (i.e. assets & public)
