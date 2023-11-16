@@ -1,0 +1,38 @@
+Github Hosting
+--------------
+- Web hosting is the process of making a website available anywhere on the internet
+    - Makes the website available anywhere 24x7
+
+- To host a web site in Github
+    - Sign-in to Github (https://github.com/)
+    - Create a new repository
+        - Provide a name
+        - In the Description field, add a short descriptive text
+        - Click the radio button labeled 'Public'
+        - Click the checkbox labeled 'Add a README file'
+        - Click button 'Create repository'
+
+    - Upload files to Github
+        - Within the created repository
+        - Click the button 'Add file'
+        - Click the menu item 'Upload files'
+        - Navigate to your local hard drive where the website is located
+            - Validate that the starting HTML document is named 'index.html'
+
+        - Select files of the website; not the folder that they are stored in
+        - Drag the files into the Github repo web page to upload them
+        - Once upload is complete, click button 'Commit changes'
+
+    - Click button 'Settings' to open Github Pages
+        - Click 'Pages'
+        - In the Branch, click the menu
+            - Change it from 'None' to 'main'
+            - Click the button 'Save'
+
+    - Back on the Github Pages
+        - Refresh the web page a few times
+            - Takes up from 1 to 10 minutes to process the request
+            
+        - A little pop-up will be displayed that the website is now live
+        - Click button 'Visit site'
+
