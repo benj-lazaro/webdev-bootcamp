@@ -1,0 +1,9 @@
+Webpages
+--------
+- A multi-pages website is comprised of multiple web pages
+    - These web pages are HTML document often contained with specific information
+        - All of these pages are stored on the same directory or folder
+        - Each web page can have their own sub-folder
+        - Relative path is used to link to these web pages from index.html
+
+
