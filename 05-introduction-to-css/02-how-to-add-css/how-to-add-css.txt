@@ -1,0 +1,58 @@
+How To Add CSS
+--------------
+Three ways of adding CSS into an HTML website
+- Inline
+    - Declared at the opening tag of a targeted HTML element 
+    - Using the global attribute 'style'
+        - Assigned with the CSS code
+            - Property
+            - Value
+
+        <h1 style="color: blue">Style Me in Blue!</h1>
+    
+    - Styles are applied to a single HTML element
+        - Useful for adding CSS style to just a single element in a HTML document
+            - However doing so it quite cubersome & repetitive
+            - It can be used for testing 
+
+    - NOTE: This has the HIGHEST ORDER in terms of CSS specificity
+ 
+
+- Internal
+    - Declared using the <style> element
+        - Located within the <head> element
+        - CSS code is written within the <style>..</style> element
+            - Defines the selector (target HTML element) 
+            - Followed by a pair of { }
+                - Containing in-between the element's property & corresponding value
+
+        <head>
+            ..
+            <style>
+                h1 {
+                    color: red;
+                }
+            </style>
+        </head>
+
+    - Styles are applied anywhere within the same (only one) HTML document
+        - It can target & set stlyes of multiple HTML elements
+        - It is NOT applicable to a website with multiple HTML documents
+
+
+- External
+    - Declared using the element <link> located within the <head> element
+        - Attribute 'rel' defines the 'role' of the file
+            - Assigned with the value of 'stylesheet'
+
+        - Attribute 'href' points to a separate CSS file
+            - Where the selector, corresponding properties & values are defined
+
+        <head>
+            ..
+            <link rel="stylesheet" href="style.css" />
+        </head>
+
+    - This is the style most commonly used in web development
+        - Styles are implemented on all HTML documents
+        - As long as it includes the <link> element pointing to the external CSS file

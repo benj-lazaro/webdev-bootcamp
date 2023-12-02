@@ -1,0 +1,36 @@
+Why Do We Need CSS
+------------------
+- CSS stands for Cascading Style Sheets
+    - Conjures an image of a waterfall cascade
+        - Water at one level drops down through a waterfall into another level
+    
+- Styles in CSS cascades like a waterfall
+    - It starts at the most general down to the most specific styling requirements
+
+- The 'style sheet' part of CSS
+    - Refers to the type of language
+    - That specifies who things (elements) should look in a website
+
+    - The most important style sheet to learn is CSS
+        - Other style sheets available out there include 
+            - SASS  = Syntactically Awesome Style Sheet
+            - LESS  = Leaner Style Sheet
+
+- W3C Consortium released HTML 3.2
+    - Came out in 1997
+    - Introduced new HTML tags & attributes
+        - <font>            = Allows to define the font size, color & font face
+        - <center>          = Centers the text element
+        - 'color' attribute
+        - 'face' attribute
+        - 'size' attribute
+
+        - NOTE: These attributes & tags are now DEPRECATED
+
+- W3C proposed a new recommendation in 1996
+    - Led by Hakon Wium Lie (Father of CSS)
+    - To allow to attach styles (e.g. colors, fonts & spacing) to HTML documents
+
+- CSS Demo (https://appbrewery.github.io/just-add-css/)
+    - Toggles between a plain HTML website and a CSS enabled one
+    
