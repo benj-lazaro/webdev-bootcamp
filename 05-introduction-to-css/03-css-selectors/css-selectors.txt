@@ -1,0 +1,92 @@
+CSS Selectors
+-------------
+- Defines the patterns to select elements 
+    - To which a set of CSS rules are then applied along with their specificity
+
+    - CSS rules are defined within a pair of { }
+        - Contains a property & an assigned value per line
+
+- They are patterns used to match or select the HTML elements you want to style
+
+- Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+
+
+Element Selector
+----------------
+- It selects a particular HTML element
+    - Applies the CSS rule(s) to all HTML elements with that particular tag name
+
+
+Syntax
+------
+<html_tag_name> {
+    <property>:<value>;
+    ..
+    <property>:<value>;
+}
+
+
+Class Selector
+--------------
+- It selects HTML element(s) assigned with a specific 'class' attribute value
+    - It has a prefix of '.'
+    - Followed by the "class" name
+
+
+Syntax
+------
+.<class_name> {
+    <property>:<value>;
+    ..
+    <property>:<value>;
+}    
+
+
+ID Selector
+-----------
+- It select a HTML element assigned with a specific "id" attribute value
+    - It has a prefix of "#"
+    - Followed by the "id" name
+
+
+Syntax
+------
+#<class_name> {
+    <property>:<value>;
+    ..
+    <property>:<value>;
+}    
+
+
+Attribute Selector
+------------------
+- It selects HTML element(s) assigned with a specific "attribute" and value
+    - Declares the targeted HTML element
+    - Followed by a pair of [ ]
+    - Within is the specific "attribute" and corresponding value
+
+
+Syntax
+------
+<html_tag_name>[<attribute>=<assigned_value>] {
+    <property>:<value>;
+    ..
+    <property>:<value>;
+}
+
+
+Universal Selector
+------------------
+- It selects all elements contained within an HTML document
+    - It has a prefix of "*"
+
+
+Syntax
+------
+* {
+    <property>:<value>;
+    ..
+    <property>:<value>;
+}
+
+
