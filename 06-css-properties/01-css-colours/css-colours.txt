@@ -1,0 +1,47 @@
+CSS Colours / Colors
+--------------------
+
+Named Color
+-----------
+- It is a CSS data type (e.g. value) where it represents the name of a color
+    - Names such as "black", "red", "cornflowerblue", etc.
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
+
+- It is a value that can be used anywhere a CSS property 'color' can be used
+
+- Free online color palette tool, Color Hunt.co (https://colorhunt.co/)
+    - Professionally design color palette
+    - Four colors stacked together that would look perfect on any website
+
+Syntax
+------
+<css_selector> {
+    color: <named_color>;
+}
+
+Example
+-------
+h1 {
+    color: red;
+}
+
+
+Hex Code
+--------
+- Hexedecimal value that represents a color
+    - Formed by 3 fractions of red, green & blue
+    - These are colors out of 255
+     
+    - RGB Mixer (https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
+
+Syntax
+------
+<css_selector> {
+    color: #<hex_code_value>;
+}
+
+Example
+-------
+h1 {
+    color: #5D3891; /* red: 5D, green: 38, blue: 91 */
+}
