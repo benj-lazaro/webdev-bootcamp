@@ -1,58 +1,65 @@
 How To Add CSS
 --------------
-Three ways of adding CSS into an HTML website
-- Inline
-    - Declared at the opening tag of a targeted HTML element 
+Three ways of adding CSS into an HTML document
+
+Inline
+------
+- Declared at the opening of an HTML tag
     - Using the global attribute 'style'
-        - Assigned with the CSS code
-            - Property
-            - Value
+    - Assigned with a CSS property and value
 
-        <h1 style="color: blue">Style Me in Blue!</h1>
+    <h1 style="color: blue">Style Me in Blue!</h1>
+
+    - CSS styles are applied ONLY to a single HTML element / tag
+        - Often used for TESTING purposes only
+        - Troubleshooting styling-related issues (e.g. color, font-size, font-family, etc.)
+
+    - NOTE: This has the HIGHEST ORDER of CSS Specificity 
+
+
+Internal
+--------
+- Declared using the <style> element
+    - Located within the <head> element
+
+    - CSS code is written within the pair of <style> .. </style> element
+
+    - Within, it declares the targeted HTML element (CSS Selector)
+        - Followed by a pair of { }
+        - Within, the CSS property to be styled and it's corresponding value
+
+    <head>
+        ..
+        <style>
+            h1 {
+                color: red;
+            }
+        </style>
+    </head>
+
+    - Internal CSS styles are applied to the targeted HTML element within the HTML document
+    - This approach is NOT applicable to websites with multiple HTML documents
+
+
+External
+--------
+- Declared using the <link> element
+    - Located within the <head> element
+
+    - The HTML attribute 'rel' defines the role of the file
+        - Assigned with the value of 'stylesheet'
+        - This means that the corresponding file is a stylesheet file
+
+    - The HTML attribute 'href' defines the location of the external CSS file
+        - The file contains the targeted CSS Selectors
+            - Their corresponding CSS properties and assigned values
+
+    <head>
+        ..
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    - This is the commonly used method of attaching CSS to an HTML document
     
-    - Styles are applied to a single HTML element
-        - Useful for adding CSS style to just a single element in a HTML document
-            - However doing so it quite cubersome & repetitive
-            - It can be used for testing 
-
-    - NOTE: This has the HIGHEST ORDER in terms of CSS specificity
- 
-
-- Internal
-    - Declared using the <style> element
-        - Located within the <head> element
-        - CSS code is written within the <style>..</style> element
-            - Defines the selector (target HTML element) 
-            - Followed by a pair of { }
-                - Containing in-between the element's property & corresponding value
-
-        <head>
-            ..
-            <style>
-                h1 {
-                    color: red;
-                }
-            </style>
-        </head>
-
-    - Styles are applied anywhere within the same (only one) HTML document
-        - It can target & set stlyes of multiple HTML elements
-        - It is NOT applicable to a website with multiple HTML documents
-
-
-- External
-    - Declared using the element <link> located within the <head> element
-        - Attribute 'rel' defines the 'role' of the file
-            - Assigned with the value of 'stylesheet'
-
-        - Attribute 'href' points to a separate CSS file
-            - Where the selector, corresponding properties & values are defined
-
-        <head>
-            ..
-            <link rel="stylesheet" href="style.css" />
-        </head>
-
-    - This is the style most commonly used in web development
-        - Styles are implemented on all HTML documents
-        - As long as it includes the <link> element pointing to the external CSS file
+    - CSS styles are implement on all HTML documents
+        - Provide that the HTML document is connected to the corresponding external CSS file

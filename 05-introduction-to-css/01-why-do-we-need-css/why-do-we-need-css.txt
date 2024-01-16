@@ -1,35 +1,36 @@
 Why Do We Need CSS
 ------------------
-- CSS stands for Cascading Style Sheets
-    - Conjures an image of a waterfall cascade
-        - Water at one level drops down through a waterfall into another level
-    
-- Styles in CSS cascades like a waterfall
-    - It starts at the most general down to the most specific styling requirements
+- CSS stands for "Cascading Style Sheets"
+    - It conjures an image of a waterfall cascade
+    - Wherein water at one level drops (cascades) down into another level
 
-- The 'style sheet' part of CSS
-    - Refers to the type of language
-    - That specifies who things (elements) should look in a website
+- Styles defined in CSS cascades like a waterfall
+    - It begins with the MOST GENERAL down to the MOST SPECIFIC styling requirements
 
-    - The most important style sheet to learn is CSS
-        - Other style sheets available out there include 
+- The 'style sheet' part of CSS refers to the type of language
+    - It specifies HOW an element SHOULD LOOK in a website 
+
+    - The most IMPORTANT STYLE SHEET to learn is CSS
+        - Alternative style sheets
             - SASS  = Syntactically Awesome Style Sheet
-            - LESS  = Leaner Style Sheet
+            - LESS  = LEaner Style Sheet
 
-- W3C Consortium released HTML 3.2
-    - Came out in 1997
-    - Introduced new HTML tags & attributes
+
+- W3C consortium released HTML vesion 3.1 in 1997
+    - Introduced new HTML elements (tag) and attributes
         - <font>            = Allows to define the font size, color & font face
         - <center>          = Centers the text element
-        - 'color' attribute
-        - 'face' attribute
-        - 'size' attribute
+        - attribute 'color'
+        - attribute 'face'
+        - attribute 'size'
 
-        - NOTE: These attributes & tags are now DEPRECATED
+        - NOTE: These are now DEPRECATED
 
-- W3C proposed a new recommendation in 1996
+- In 1996, W3C proposed a new recommendation
     - Led by Hakon Wium Lie (Father of CSS)
-    - To allow to attach styles (e.g. colors, fonts & spacing) to HTML documents
+    - Allows to attach styles into HTML documents (Inline CSS)
+        - e.g. colors, fonts & spacing
+
 
 - CSS Demo (https://appbrewery.github.io/just-add-css/)
     - Toggles between a plain HTML website and a CSS enabled one
