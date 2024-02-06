@@ -1,0 +1,6 @@
+Font Properties
+---------------
+- The following CSS properties handles the changing the appearance of a HTML element's text size
+    - font-weight
+    - font-size
+    - font-family
