@@ -1,47 +1,48 @@
-CSS Colours / Colors
---------------------
-
-Named Color
+CSS Colours
 -----------
-- It is a CSS data type (e.g. value) where it represents the name of a color
-    - Names such as "black", "red", "cornflowerblue", etc.
-    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
+- The CSS property "color" defines the text color of an HTML element
 
-- It is a value that can be used anywhere a CSS property 'color' can be used
-
-- Free online color palette tool, Color Hunt.co (https://colorhunt.co/)
-    - Professionally design color palette
-    - Four colors stacked together that would look perfect on any website
 
 Syntax
 ------
 <css_selector> {
-    color: <named_color>;
-}
-
-Example
--------
-h1 {
-    color: red;
+    color: <color_value>;
 }
 
 
-Hex Code
---------
-- Hexedecimal value that represents a color
-    - Formed by 3 fractions of red, green & blue
-    - These are colors out of 255
-     
-    - RGB Mixer (https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
+- A CSS color value can be represented in a number of ways
+    - Named color
+        - Color is represented by its name (e.g. black, red, cornflowerblue, etc.)
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
 
-Syntax
-------
-<css_selector> {
-    color: #<hex_code_value>;
-}
+    Example
+    -------
+    h1 {
+        color: red;
+    }
 
-Example
--------
-h1 {
-    color: #5D3891; /* red: 5D, green: 38, blue: 91 */
-}
+
+    - Hex code / Hex color
+        - Color is represented by a hexedecimal value
+        - It is formed by three (3) fractions of Red, Blue & Green
+        - Prefixed by a "#"
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color)
+
+    Example
+    -------
+    h1 {
+        color: #5D3891; /* consists of hex code red: 5D, green: 38, blue: 91 */
+    }
+
+
+- Free online tools
+    - ColorHunt.co
+        - Free color palette tool
+        - Created by designers for designers
+        - Website (https://colorhunt.co/)
+
+    - RGB Mixer 
+        - Free color mixer tool
+        - Displays color the values in decimal or hexedecimal format
+        - Website (https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
+
