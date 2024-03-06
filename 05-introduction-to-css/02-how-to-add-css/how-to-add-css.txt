@@ -1,32 +1,31 @@
 How To Add CSS
 --------------
-Three ways of adding CSS into an HTML document
+Three (3) ways of adding CSS into an HTML document:
 
 Inline
 ------
-- Declared at the opening of an HTML tag
-    - Using the global attribute 'style'
-    - Assigned with a CSS property and value
+- Styles that are declared within the opening of an HTML tag
+    - Uses the global attribute "style"
+    - Assigned with a CSS "property: value" pair 
 
     <h1 style="color: blue">Style Me in Blue!</h1>
 
-    - CSS styles are applied ONLY to a single HTML element / tag
-        - Often used for TESTING purposes only
-        - Troubleshooting styling-related issues (e.g. color, font-size, font-family, etc.)
+    - Defined CSS style is implemented ONLY on the specific HTML tag
+        - It used for TESTING PURPOSES only
+        - Primarily for troubleshooting CSS styling-related issues (e.g. color, font, etc.)
 
-    - NOTE: This has the HIGHEST ORDER of CSS Specificity 
-
+    - IMPORTANT: It has the HIGHEST ORDER of SPECIFICITY 
+    
 
 Internal
 --------
-- Declared using the <style> element
+- Styles that are declared using the <style> tag
     - Located within the <head> element
 
-    - CSS code is written within the pair of <style> .. </style> element
+    - The CSS code is written within the pair of <style> .. </style> element
 
-    - Within, it declares the targeted HTML element (CSS Selector)
-        - Followed by a pair of { }
-        - Within, the CSS property to be styled and it's corresponding value
+    - The targeted HTML element, CSS property & corresponding value
+        - Are declared within the <style> tag
 
     <head>
         ..
@@ -37,22 +36,23 @@ Internal
         </style>
     </head>
 
-    - Internal CSS styles are applied to the targeted HTML element within the HTML document
-    - This approach is NOT applicable to websites with multiple HTML documents
+    - Defined CSS style is/are implemented on targeted HTML element(s) within a HTML document
+        - This approach is NOT APPLICABLE for a multi-paged website
 
 
 External
 --------
-- Declared using the <link> element
+- Styles that are declared using the <link> element
     - Located within the <head> element
 
-    - The HTML attribute 'rel' defines the role of the file
-        - Assigned with the value of 'stylesheet'
-        - This means that the corresponding file is a stylesheet file
+    - The HTML attribute "rel" defines the role of the file
+        - Assigned with the value of "stylesheet"
+        - This meant that the file is a stylesheet file
 
-    - The HTML attribute 'href' defines the location of the external CSS file
-        - The file contains the targeted CSS Selectors
-            - Their corresponding CSS properties and assigned values
+    - The HTML attribute "href" defines the location of the external CSS file
+        - The external .css file contains
+            - Targeted HTML elements
+            - CSS properties and corresponding values
 
     <head>
         ..
@@ -61,5 +61,6 @@ External
 
     - This is the commonly used method of attaching CSS to an HTML document
     
-    - CSS styles are implement on all HTML documents
-        - Provide that the HTML document is connected to the corresponding external CSS file
+    - Defined CSS styles are implement on targeted HTML element(s) on ALL HTML documents
+        - Provided that an HTML document is CONNECTED to the corresponding external CSS file
+    

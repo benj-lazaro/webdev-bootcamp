@@ -4,8 +4,10 @@ Why Do We Need CSS
     - It conjures an image of a waterfall cascade
     - Wherein water at one level drops (cascades) down into another level
 
-- Styles defined in CSS cascades like a waterfall
-    - It begins with the MOST GENERAL down to the MOST SPECIFIC styling requirements
+
+- The styles defined cascades like a waterfall
+    - Begins with the MOST GENERAL down to the MOST SPECIFIC styling requirements
+
 
 - The 'style sheet' part of CSS refers to the type of language
     - It specifies HOW an element SHOULD LOOK in a website 
@@ -26,6 +28,7 @@ Why Do We Need CSS
 
         - NOTE: These are now DEPRECATED
 
+
 - In 1996, W3C proposed a new recommendation
     - Led by Hakon Wium Lie (Father of CSS)
     - Allows to attach styles into HTML documents (Inline CSS)
@@ -34,4 +37,3 @@ Why Do We Need CSS
 
 - CSS Demo (https://appbrewery.github.io/just-add-css/)
     - Toggles between a plain HTML website and a CSS enabled one
-    
