@@ -1,8 +1,0 @@
-Lorem Ipsum
------------
-- Comes from Latin classical literature by the famous author Cicero
-    - It is used in the print industry since the 1500s
-    - It is used for placeholder text
-    - Website (https://lipsum.com/)
-
-- It provides a natural looking paragraphs that mimics a regular English article

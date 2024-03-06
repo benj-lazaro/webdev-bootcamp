@@ -1,0 +1,9 @@
+Void Elements
+-------------
+- These are HTML elements that are FORBIDDEN from putting content
+    - Inside their respective self-closing tags 
+
+
+- Common void elements:
+    - break element             = <br /> or <br>
+    - horizontal rule element   = <hr /> or <hr>

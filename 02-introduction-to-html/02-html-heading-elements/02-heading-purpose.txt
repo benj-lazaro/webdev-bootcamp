@@ -1,0 +1,29 @@
+Heading Element Purpose
+-----------------------
+- The purpose of these elements came from the idea of book binding
+    - Where it conveys levels of importance
+
+
+- All six (6) levels of section headings
+
+    <h1>Heading level 1</h1>
+    <h2>Heading level 2</h2>
+    <h3>Heading level 3</h3>
+    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
+    <h6>Heading level 6</h6>
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+
+
+- IMPORTANT: Rules for convention
+    1. Use ONLY ONE <h1> element per PAGE (HTML document)
+        - When in need of a sub-title, use <h2> element
+
+    2. AVOID skipping a heading level
+        - GO THROUGH each heading level
+
+
+Syntax:
+
+<heading_level>[content]</heading_level>

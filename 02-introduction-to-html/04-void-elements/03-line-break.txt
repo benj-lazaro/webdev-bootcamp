@@ -1,0 +1,18 @@
+Line Break Element
+------------------
+- A self-closing HTML element that produces a line break in text (i.e. carrigage return)
+    - It is best used for breaking content within a single <p> element
+        - Into several lines (e.g. home address, poem, etc.)
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+
+    - NOTE: DO NOT use it as a replacement for the <p> element
+        - It is NOT good for accessibility
+        - Makes it harder for blind users with screen readers
+            - To understand the website's content
+
+
+Syntax
+------
+<br />
+<br>
