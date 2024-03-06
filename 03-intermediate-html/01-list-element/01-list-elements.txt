@@ -1,0 +1,19 @@
+The List Elements
+-----------------
+- There are two (2) list elements in HTML:
+    - Ordered List 
+    - Unordered List 
+
+
+Ordered List
+------------
+- The <ol> element represents an ordered list of items
+    - Often rendered as a numbered list
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+
+
+Unordered List
+--------------
+- The <ul> element represents an unordered list of items
+    - Typically rendered as a bulleted list
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)

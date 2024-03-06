@@ -1,4 +1,4 @@
 Nesting And Indentation
 -----------------------
-- Nested list in HTML
-    - Are best to be indented so as it is easier to read
+- Nested lists within a HTML document are best to be indented
+    - So as it make it easier to read the contents
