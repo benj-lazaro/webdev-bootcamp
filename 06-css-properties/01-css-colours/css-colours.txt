@@ -1,7 +1,7 @@
 CSS Colours
 -----------
-- The CSS property "color" defines the text color of an HTML element
-
+- CSS color properties sets the color of a targeted CSS Selector
+    - Color values in CSS can be represented in a number of ways
 
 Syntax
 ------
@@ -10,28 +10,23 @@ Syntax
 }
 
 
-- A CSS color value can be represented in a number of ways
-    - Named color
-        - Color is represented by its name (e.g. black, red, cornflowerblue, etc.)
-        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
+- Named color
+    - Color is represented by its given name (e.g. black, red, cornflowerblue, etc.)
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
 
-    Example
-    -------
-    h1 {
+    <css_selector> {
         color: red;
     }
 
 
-    - Hex code / Hex color
-        - Color is represented by a hexedecimal value
-        - It is formed by three (3) fractions of Red, Blue & Green
-        - Prefixed by a "#"
-        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color)
+- Hex Code / Hex Color 
+    - Color is represented by a hexedecimal value
+    - Formed by three (3) fractions of Red, Blue & Green
+    - Prefixed by a "#"
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color)
 
-    Example
-    -------
-    h1 {
-        color: #5D3891; /* consists of hex code red: 5D, green: 38, blue: 91 */
+    <css_selector> {
+        color: #5D3891;     /* consists of hex code red: 5D, green: 38, blue: 91 */
     }
 
 
