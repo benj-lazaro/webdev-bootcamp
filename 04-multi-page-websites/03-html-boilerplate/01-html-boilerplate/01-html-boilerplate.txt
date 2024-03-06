@@ -2,8 +2,10 @@ The HTML Boilerplate
 --------------------
 - It is what you usually start off when creating a new HTML document
 
+
 - The <!DOCTYPE html>
     - Tells the browser which HTML version the document is written in
+
 
 - The <html lang="en">
     - This is the root element of the HTML document
@@ -11,10 +13,12 @@ The HTML Boilerplate
     - The 'lang' attribute refers the targeted written language of the HTML document
         - Important for visibility impaired users that use screen readers
 
+
 - The <head>
     - Contains important information about the web page
     - Information on how to properly render the web page 
     - Content is NOT displayed to viewers
+
 
 - The <meta charset="UTF-8" />
     - Contained within <head>
@@ -23,20 +27,18 @@ The HTML Boilerplate
         - Some character sets does NOT allow emoji, math symbols, etc.
         - 'UTF-8' commonly used character set 
 
+
 - The <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     - Defined how the web page is displayed relative to screen it is being rendered on
+
 
 - The <title>
     - Contained within <head>
     - Holds information about the title of the web page
     - Title is the text displayed by the web page on the browser's tab bar
 
+
 - The <body>
     - Contained within <html>
     - Just after the closing tag of the <head> element
     - Contains the content of a web page / web site
-
-- VS code HTML boilerplate shortcut
-    - Create a empty HTML document (.html)
-    - Type the chracter '!'
-    - Press the enter or tab key

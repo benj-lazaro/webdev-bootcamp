@@ -3,6 +3,7 @@ Github Hosting
 - Web hosting is the process of making a website available anywhere on the internet
     - Makes the website available anywhere 24x7
 
+
 - To host a web site in Github
     - Sign-in to Github (https://github.com/)
     - Create a new repository
