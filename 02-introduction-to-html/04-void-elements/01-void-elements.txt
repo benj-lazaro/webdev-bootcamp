@@ -1,9 +1,27 @@
 Void Elements
 -------------
-- These are HTML elements that are FORBIDDEN from putting content
-    - Inside their respective self-closing tags 
+- These are HTML elements that can NOT have their own content
+    - It ONLY have a start HTML tag
+    - The end HTML tag is MUST NOT be specified
 
 
-- Common void elements:
-    - break element             = <br /> or <br>
-    - horizontal rule element   = <hr /> or <hr>
+- The void elements in HTML are as follows:
+    - <area>
+    - <base>
+    - <br>
+    - <col>
+    - <embed>
+    - <hr>
+    - <img>
+    - <input>
+    - <link>
+    - <meta>
+    - <param>*
+    - <source>
+    - <track>
+    - <wbr>
+
+    - * = deprecated
+
+
+- Reference (https://developer.mozilla.org/en-US/docs/Glossary/Void_element)

@@ -1,29 +1,26 @@
 Heading Element Purpose
 -----------------------
-- The purpose of these elements came from the idea of book binding
-    - Where it conveys levels of importance
+- The purpose of heading elements is to convey a level of importance
+    - This idea came from traditional book binding
 
 
-- All six (6) levels of section headings
-
-    <h1>Heading level 1</h1>
-    <h2>Heading level 2</h2>
-    <h3>Heading level 3</h3>
-    <h4>Heading level 4</h4>
-    <h5>Heading level 5</h5>
-    <h6>Heading level 6</h6>
+- The HTML elements <h1> to <h6> represents the six (6) level of section headings
+    - It is a block-level element
+        - It starts on a new line
+        - It takes up the full width available in their containing block
 
     - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
 
 
-- IMPORTANT: Rules for convention
-    1. Use ONLY ONE <h1> element per PAGE (HTML document)
-        - When in need of a sub-title, use <h2> element
+- Important rules for convention
+    - Avoid using multiple <h1> elements on one page
+        - Limit only to one <h1> element per HTML document (i.e. web page)
 
-    2. AVOID skipping a heading level
-        - GO THROUGH each heading level
+    - Avoid skilling a heading level
+        - Go through each heading level
 
 
-Syntax:
+Example:
 
-<heading_level>[content]</heading_level>
+<h1>Papa's Pizza</h1>
+<h2>The best pizza in the multiverse</h2>

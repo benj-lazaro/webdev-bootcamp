@@ -1,8 +1,8 @@
 What is HTML
 ------------
-- HTML defines the content and structure of a website
+- HTML stands for HyperText Markup Language
+    - It defines the content and structure of a website
 
+    - The "HyperText" part refers to pieces of text that can be linked to other documents in a website
 
-- It stands for HyperText Markup Language
-    - HyperText         = pieces of text that can link to other documents in the website
-    - Markup Language   = Mark up the document using HTML tags
+    - The "Markup Language" part refers to the HTML tags used for "marking up" a document (i.e. web page)

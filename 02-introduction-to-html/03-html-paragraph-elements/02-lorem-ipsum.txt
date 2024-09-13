@@ -1,11 +1,14 @@
 Lorem Ipsum
 -----------
-- It comes from Latin classical literature
-    - Introduced by the famous author Cicero
+- It is a placeholder text
+    - Commonly used to demonstrate the visual form of a document 
+        - Without relying on meaningful content
 
+    - It provide a natural looking paragraph
+        - That mimics a regular English article
 
-- It is used in the print industry since the 1500s as PLACEHOLDER TEXT
-    - Website (https://lipsum.com/)
+    - It comes from Latin classical literature
+        - Introduced by the famous author Cicero
 
-
-- It provides a natural looking paragraphs that mimics a regular English article
+    - Used in the print industry since the 1500s
+        - Website (https://lipsum.com/)

@@ -1,23 +1,16 @@
 Horizontal Rule 
 ---------------
-- It is a  self-closing HTML element that represents a thematic break
-    - Between paragraph-level elements
+- The HTML element <hr> represents a thematic break between paragraph-level elements
+    - It is a void element 
+    - It is visually represented by a horizontal line 
+
     - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
-    - Often used when:
-        - There is a shift of topic within a section
-        - Change of scene in a story
+    - Use case:
+        - To implement a shift of topic within a section
+        - To implement a change of scene in a story
 
 
-- It is visually represented by a horizontal line between 
+Syntax:
 
-
-- A self-closing HTML element that represents a thematic break between paragraph-level elements
-    - Used when a shift of "topic" within a section
-    - Visually represented with a horizontal line between paragraph elements
-
-    
-Syntax
-------
-<hr />
 <hr>
