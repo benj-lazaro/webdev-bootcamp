@@ -1,13 +1,18 @@
 Image Element
 -------------
-- The self-closing HTML element <img> embeds an image into a HTML document
-    - It requires the HTML attribute "src" to work
-        - It contains the path to the image file
+- The HTML element <img> embeds an image into the HTML document
+    - It is a void element
 
-    - The HTML attribute "alt"
-        - Serves as a text replacement for the image 
-            - In the event that the image can NOT be loaded for some reason
+    - The attribute "src" refers to the path of the image file
 
+    - The attribute "art" serves as a text replacement for the image
+        - In the event that the image can NOT be rendered or loaded
+        
         - This is MANDATORY for accessibility
 
     - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+
+
+Example: 
+
+<img src="/media/cc0-images/grapefruit-slice-332-332.jpg"  alt="Grapefruit slice atop a pile of other slices" />

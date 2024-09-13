@@ -1,9 +1,20 @@
 List Items 
 ----------
-- The <li> element represents an item within a list
-    - It MUST be contained within a parent element:
-        - Ordered List <ol>
-        - Unordered List <ul>
-        - Menu <menu>
-
+- The HTML element <li> represents an item within a list
+    - It MUST be contained within a parent element (i.e. <ol>, <ul> or <menu>
     - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+
+
+Example:
+
+<ol>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ol>
+
+<ul>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ul>

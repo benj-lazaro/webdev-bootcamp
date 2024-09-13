@@ -1,0 +1,9 @@
+Exercise
+--------
+- Create a new HTML document
+    - Featuring an ordered list of your top 5 favorite Websites
+
+    - The number of the list starts with the number 5 instead of 1
+        - Tip: The attribute "start" sets the starting number of an ordered list of items
+
+    - Implement a proper heading element

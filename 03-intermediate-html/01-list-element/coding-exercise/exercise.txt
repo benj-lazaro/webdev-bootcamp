@@ -1,0 +1,4 @@
+Exercise
+--------
+- Format the content (i.e. Angela's Cinnamon Roll Recipe) of the attached HTML document
+    - Using HTML list elements
