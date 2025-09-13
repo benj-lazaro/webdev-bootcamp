@@ -1,0 +1,5 @@
+Exercise
+--------
+- On the attached HTML document
+    - Format the content
+    - It MUST contain three (3) visually separate paragraphs

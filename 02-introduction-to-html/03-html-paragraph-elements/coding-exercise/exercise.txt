@@ -1,3 +1,0 @@
-Exercise
---------
-- Format the attached HTML document in order to have 3 visually separate paragraphs

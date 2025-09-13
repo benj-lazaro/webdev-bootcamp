@@ -1,3 +1,19 @@
+HTML Paragraph Elements
+-----------------------
+- HTML element <p> represents a paragraph
+    - Formats the content as a block of text
+        - Separated from adjacent blocks of content
+
+    - It is a Block level element
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+
+
+Example:
+
+<p>This is a paragraph</p>
+
+
 Lorem Ipsum
 -----------
 - It is a placeholder text
@@ -12,3 +28,4 @@ Lorem Ipsum
 
     - Used in the print industry since the 1500s
         - Website (https://lipsum.com/)
+
