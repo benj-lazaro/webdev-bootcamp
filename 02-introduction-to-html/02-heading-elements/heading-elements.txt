@@ -37,9 +37,12 @@ HTML Heading Elements
         - NO skipping a heading level
             - Go through each level from <h1> to <h6>
 
-            <h1>Papa's Pizza</h1>
-            
-            <h2>The best pizza in the multiverse</h2>
 
-            <h3>Lorem ipsum</h3>
+Example:
+
+<h1>Papa's Pizza</h1>
+            
+<h2>The best pizza in the multiverse</h2>
+
+<h3>Lorem ipsum</h3>
 
