@@ -1,0 +1,46 @@
+How To Get Most Out Of The Course
+---------------------------------
+- #1: Watch the video within 10 mins. mark
+    - Understand what is being taught
+        - The purpose of the code
+        - Do NOT code along at the same time
+
+    - After the 10 mins. mark
+        - Launch VS Code 
+        - Replicate what is taught
+
+    - Understand why the code worked
+        - Test if the material is fully understood
+
+
+- #2: Take notes
+    - Use a note taking system e.g. 'Cornell Notes'
+        - Recall theory
+        
+    - Implement what was learned in code
+
+
+- #3: Do NOT skip the tutorials
+    - The course is design to be a smooth sloping (learning) ramp
+    
+
+- #4: Bookmark difficult topics
+    - Research about it using external sources
+        - Google
+        - Stack Overflow
+        - MDN Web Docs
+
+    - Re-watch the video again
+        - Within the 10 mins. mark (tip #1)
+
+    - If still fails to understand the topic
+        - Come back to it after a week
+
+
+- #5: Persevere
+    - Put in the hours to continuously practice
+        - Practice is IMPORTANT
+        - Watching videos is NOT
+
+
+- #6: Getting stuck is normal
