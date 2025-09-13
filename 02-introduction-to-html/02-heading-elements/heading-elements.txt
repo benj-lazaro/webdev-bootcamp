@@ -1,0 +1,45 @@
+HTML Heading Elements
+---------------------
+- A HTML tag refers to
+    - The text enclosed within < >
+    
+    - It often written as a pair of starting & ending tag
+        - Starting tag   <...>
+        - Ending tag    </... >
+        - e.g. <h1> </h1>
+
+- A HTML element refers to the
+    - Starting HTML tag
+    - Corresponding content
+    - Ending HTML tag
+    
+    - NOTE: The content is placed in-beween the starting & ending HTML tag
+        - e.g. <h1>Hello there</h1>
+
+
+- The HTML Heading element
+    - It's purpose is to convey a level of importance
+        - Inspired from traditional book binding
+    
+    - HTML has 6 Headings elements
+        - <h1>  = highest level of importance
+        - <h6>  = lowest level
+
+    - They are a Block level element
+        - Rendered on a new line in the browser
+        - Takes up the FULL WIDTH that is available in their containing block
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+
+    - Important convention
+        - AVOID multiple <h1> elements in a single web page
+            - Limit to using one <h1> element per HTML document (i.e. web page)
+
+        - NO skipping a heading level
+            - Go through each level from <h1> to <h6>
+
+            <h1>Papa's Pizza</h1>
+            
+            <h2>The best pizza in the multiverse</h2>
+
+            <h3>Lorem ipsum</h3>
+

@@ -1,4 +1,0 @@
-Exercise
---------
-- Implement the levels of importance depicted from the lesson 
-    - Into the attached HTML document
