@@ -1,6 +1,0 @@
-Project
--------
-- Create a new HTML document
-    - Featuring 3 of your favorite movies
-    - Use the heading, paragraph and void elements
-    - Use the attached image (goal.png) as a guide

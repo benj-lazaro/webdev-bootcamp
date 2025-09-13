@@ -1,0 +1,12 @@
+Project: Movie Ranking
+----------------------
+- Create a new HTML document
+
+
+- Inside the HTML document
+    - Feature three (3) of your favorite movies
+
+    - Use heading and paragraph elements
+        - As well as self-closing tags 
+
+    - See attached image file (goal.png) as guide
