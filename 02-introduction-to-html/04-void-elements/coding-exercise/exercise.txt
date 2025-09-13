@@ -1,5 +1,0 @@
-Exercise
---------
-- Format the content attached HTML document
-    - Replicate the Goal web page
-    - Using Void elements

@@ -1,0 +1,49 @@
+Self Closing Tags
+-----------------
+- A self closing (i.e. void) HTML tag
+    - It does NOT have a content
+
+    - It does NOT have a separate ending tag
+        - Instead it has a "/" right after the tag name
+        - e.g. <br />, <img />
+    
+    - Reference (https://developer.mozilla.org/en-US/docs/Glossary/Void_element)
+
+
+- The HTML tag <hr> referred as the "Horizontal Rule" 
+    - It represents a thematic break between paragraph elements
+
+    - It is visually rendered as a horizontal line
+
+    - It is useful for:
+        - Shifting the topic within a section
+        - Changing of the scene in a story
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr)
+
+
+Example:
+
+<hr>
+
+
+- The HTML tag <br> referred as the "Line Break"
+    - Produces a line break in text (i.e. carriage-return)
+
+    - It is useful for:
+        - Breaking down the content of a paragraph 
+            - Into severeal lines
+            - e.g. home address, poem, etc.
+
+    - NOTE: NOT intended as replacement for the HTML element <p>
+        - NOT good for accessibility
+
+        - Makes it difficult for screen readers 
+            - To understand the document's content
+
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+
+
+Example:
+
+<br>

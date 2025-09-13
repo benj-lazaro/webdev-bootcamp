@@ -1,0 +1,8 @@
+Exercise
+--------
+- On the attached HTML document
+    - Format the content
+    
+    - Replicate the "Goal" web page
+    
+    - Using self-closing tags
