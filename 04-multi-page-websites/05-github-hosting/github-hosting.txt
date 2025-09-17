@@ -1,11 +1,13 @@
 Github Hosting
 --------------
-- Web hosting is the process of making a website available anywhere on the internet
-    - Makes the website available anywhere 24x7
+- Web hosting refers to the process of
+    - Making a website publicly available on the internet
+    - available 24 x 7
 
 
-- To host a web site in Github
+- To host a website in Github
     - Sign-in to Github (https://github.com/)
+
     - Create a new repository
         - Provide a name
         - In the Description field, add a short descriptive text
@@ -32,8 +34,8 @@ Github Hosting
 
     - Back on the Github Pages
         - Refresh the web page a few times
-            - Takes up from 1 to 10 minutes to process the request
+            - NOTE: May take approximately 10 minutes to complete the request
             
-        - A little pop-up will be displayed that the website is now live
-        - Click button 'Visit site'
-
+        - Once done
+            - A little pop-up will be displayed that the website is now live
+            - Click button 'Visit site'
