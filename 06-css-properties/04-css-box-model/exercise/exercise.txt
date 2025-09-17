@@ -1,0 +1,48 @@
+Exercise
+--------
+- Create a new HTML document named "index.html"
+
+
+- Create 3 boxes using the HTML element <div>..</div>
+    - Set their sizes to "200px" (width & height)
+
+    - Set different background colors for each box
+        - "cadetblue"
+        - "gold"
+        - "indianred"
+
+- Add a HTML element <p>..</p>
+    - On the first HTML element <div>
+    
+    - Add the following content
+
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+        id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+        dolor metus, laoreet ac convallis sit amet, efficitur sed dolor."
+
+    - Set the element's padding to "20px"
+        - With a black "10px" border
+
+
+- Fix the style of the HTML element <p>..</p>
+    - To remove ALL margins
+    - HINT: Use the CSS inspector in Chrome.
+
+
+- Set the 2nd HTML element <div>..</div>
+    - To have a "20px" border on top & botton
+    - A "10px" border on the left & right
+    - See "goal" image
+
+
+- Set the 3rd HTML element <div>..</div>
+    - To have a "10px" border
+
+
+- Set the margins for the HTML elements <div>..</div>
+    - So that each box corner touches the other
+    - See "goal" image
+
+
+- NOTE: Use Chrome extension "Pesticide"
+    - Website (https://chrome.google.com/webstore/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi)
