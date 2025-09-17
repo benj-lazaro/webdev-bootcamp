@@ -1,0 +1,39 @@
+Project: Motivational Poster
+----------------------------
+- Create a motivational poster website
+  - Style it however you like
+  - Look at the "goal" image for inspiration
+
+
+- It MUST have the following features:
+  - The main HTML element <h1>..</h1>
+      - Should be using the font family "Libre Baskerville"
+      - Font weight "regular"
+      - Resource (https://fonts.google.com/specimen/Libre+Baskerville)
+
+  - The HTML document's text
+    - Should be "white"
+    - Background color of "black"
+
+  - Add your own image
+    - MUST be stored in the sub-folder named "images" located within
+      - The parent sub-folder named "assets" 
+
+  - The HTML document's text should be "center" aligned
+
+  - Create a HTML element <div>..</div>
+    - It contains the HTML elements <h1>, <p> and <img>
+    
+    - Adjust their margins so that BOTH image & text
+      - Are center aligned on the web page
+
+      - HINT: A HTML element <div> can be center-aligned by giving
+        - A width of "50%"
+        - A "margin-left" of "25%"
+
+      - HINT: Set the image to have a width of "100%"
+        - To fill the HTML element <div>
+
+  - Read about the CSS property "text-transform"
+    - To make the content of the HTML element <h1> in uppercase
+    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
