@@ -1,0 +1,15 @@
+Exercise
+--------
+- Extract the attached file
+
+
+- Open the file "index.html"
+    - Implement 
+
+- Download and extract the attached file
+    - Open the index.html in VS code
+
+
+- Implement the corresponding image file for each animal
+    - Provide a brief description for each image
+    - Using the HTML attribute "alt"

@@ -1,9 +1,0 @@
-Exercise
---------
-- Download and extract the attached file
-    - Open the index.html in VS code
-
-    - Implement the HTML element <img /> for each animal image
-        - Assign the relative file path of the image on the element's attribute "src"
-        - Provide a brief description of the image on the element's attrbute "alt"
-

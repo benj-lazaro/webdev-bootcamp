@@ -1,0 +1,26 @@
+Computer File Paths
+-------------------
+- A file path can direct a user or computer to a file or folder
+    - It looks into the specified folders w/in a computer's local drive
+    - In order to access a specified file
+
+
+- The "root" refers to the starting point of a computer's file system
+    - Often refers to the computer's hard drive
+        - On Windows OS = drive C:
+        - On Mac OS     = Macintosh HD
+        - On Linux OS   = /
+
+
+- The Absolute file path refers
+    - To a file path that is relative to the computer's root folder
+
+
+- The Relative file path refers
+    - To a file path that is relative to the location where you're writing code
+    - e.g. index.html 
+
+
+- The special characters that help writing Relative file paths
+    - ".."  = Refers to the level above the current folder
+    - "./"  = Refers to the current folder
