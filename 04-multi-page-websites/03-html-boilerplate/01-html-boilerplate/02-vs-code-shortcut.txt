@@ -1,6 +1,0 @@
-VS Code Shortcut
-----------------
-- To invoke the HTML boilerplate
-    - Create an empty HTML document (.html)
-    - Type "!"
-    - Press ENTER or TAB key

@@ -1,0 +1,46 @@
+The HTML Boilerplate
+--------------------
+- The boilplate code used after creating a new HTML document
+
+
+- To invoke the HTML boilerplate in VS Code
+    - After creating a new HTML document
+    - Type "!" then press TAB
+
+
+- The HTML tag <!DOCTYPE html>
+    - Informs the browser on the HTML version the document is written on
+
+
+- The HTML element <html lang="en">...</html>
+    - This is the root element of the HTML document
+
+    - HTML attribute "lang" refers
+        - To the targeted written language of the HTML document
+        - IMPORTANT for visually impaired users that uses screen readers
+
+
+- The HTML element <head>...</head>
+    - Contains important information about the web page
+    - How how to properly render the web page
+    - Its content is not rendered in the browser
+
+
+- The HTML self-closing element <meta charset="UTF-8" />
+    - Contains information of the HTML document's character encoding
+        - A Child of the HTML element <head>...</head>
+        - It ensures that characters are rendered correctly
+        - e.g. "UTF-8"
+        - NOTE: Some "UTF" values does NOT allow emojis, math symbols, etc.
+
+
+- The HTML element <title>...</title>
+    - Holds information about the HTML document's title
+    - Rendered on the browser tab bar
+    - A child of the HTML element <head>...</head>
+
+
+- The HTML element <body>..</body>
+    - Contains the content of the HTML document
+    - Located right after the HTML element <head>...</head>
+    - A child of the HTML element <html>...</html>

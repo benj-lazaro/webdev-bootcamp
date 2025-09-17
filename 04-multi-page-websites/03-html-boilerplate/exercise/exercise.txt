@@ -1,0 +1,15 @@
+Exercise
+--------
+- Create a new HTML document "burger.html"
+    - Build a "burger" made from pseudo HTML elements
+        - e.g. <bun>...</bun>
+
+    - To represent part of a burger
+
+
+- Create a new HTML document "index.html"
+    - Use VS Code's shortcut to generate a HTML boilerplate code
+    
+    - Insert a HTML Header element <h1>
+        - Assign the content "HTML Boilerplate"
+
