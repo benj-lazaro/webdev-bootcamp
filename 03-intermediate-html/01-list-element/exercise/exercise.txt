@@ -1,0 +1,4 @@
+Exercise
+--------
+- Format the content of the attached HTML document
+    - Using HTML's list elements
