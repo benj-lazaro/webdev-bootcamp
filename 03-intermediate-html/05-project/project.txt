@@ -1,4 +1,0 @@
-Project
--------
-- Create a birthday invitation web page
-    - Implement a list, an anchor and image element
