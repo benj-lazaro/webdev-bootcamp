@@ -1,12 +1,13 @@
-Webpages
---------
-- A multi-paged website is comprised of multiple web pages
-    - With the index.html as the main web page
+What Are Webpages?
+------------------
+- A multi-paged website comprises of multiple individual web pages
+    - With the file "index.html" as the main page
 
 
-- These web pages are HTML documents that contained specific information 
-    - Stored within the same directory / folder 
-    - Each web page can have their own sub-directory / folder 
+- Each HTML document (i.e. web page) contains specific information
+    - Often stored within the same folder
+    - But can have their own sub-folder
 
 
-- Relative paths are used to link these pages from the index.html file
+- In order to link all of the web pages together from the "index.html"
+    - The Relative path is used to link them together
