@@ -1,43 +1,40 @@
 CSS Colours
 -----------
-- CSS color properties sets the color of a targeted CSS Selector
-    - Color values in CSS can be represented in a number of ways
+- The CSS property "color"
+    - Sets the color of a targeted CSS Selector
 
-Syntax
-------
-<css_selector> {
-    color: <color_value>;
-}
+    Syntax:
 
-
-- Named color
-    - Color is represented by its given name (e.g. black, red, cornflowerblue, etc.)
-    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
-
-    <css_selector> {
-        color: red;
+    <CSS_Selector> {
+        color: <color_value>;
     }
 
 
-- Hex Code / Hex Color 
-    - Color is represented by a hexedecimal value
-    - Formed by three (3) fractions of Red, Blue & Green
-    - Prefixed by a "#"
-    - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color)
+- The color values are represented using
+    - Named colors
+        - Using named colors
+        - e.g. red, blue, yellow
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
 
-    <css_selector> {
-        color: #5D3891;     /* consists of hex code red: 5D, green: 38, blue: 91 */
-    }
+    - Hex colors
+        - Represented by 3 fractions of Red, Green & Blue
+        - Prefixed with a "#"
+        - Followed by hexedecimal numbers
+        - e.g. #5D3891 (5D of Red, 38 of Green and 91 of Blue )
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color)
+
+    - Color values are represented in a number of ways
+        - Named colors
+        - Hex code color
 
 
-- Free online tools
+- Free online color tools
     - ColorHunt.co
-        - Free color palette tool
-        - Created by designers for designers
+        - Color palette tool
         - Website (https://colorhunt.co/)
 
     - RGB Mixer 
-        - Free color mixer tool
-        - Displays color the values in decimal or hexedecimal format
+        - Color mixer tool
+        - Offer color values in Decimal and/or Hexidecimal format
         - Website (https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
 

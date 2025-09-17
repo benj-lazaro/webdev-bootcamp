@@ -1,0 +1,13 @@
+Exercise
+--------
+- Create a new HTML document named "index.html"
+    - Set the background color of the web page "antiquewhite"
+
+    - Set the color of the HTML element <h1> to "whitesmoke"
+        - Set the background color to "darkseagreen"
+
+    - Set the color of the HTML element <h2> to "#FAF8F1"
+        - Set the background color to "#C58940"
+
+    - Use the tool RGB Mixer
+        - Website (https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
