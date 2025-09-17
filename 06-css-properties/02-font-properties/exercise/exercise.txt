@@ -1,0 +1,42 @@
+Exercise
+--------
+- Create a HTML document named "index.html"
+    - Change the color of <p>Color</p> 
+        - To "coral" color
+
+    - Change the font size of <p>Font Size</p>
+        - To 2X the size of the root font size
+
+    - Change the font weight of <p>Font Weight</p> 
+        - To 900
+
+    - Change the font family of <p>Font Family</p> 
+        - To the Google font "Caveat" 
+        - With regular (400) font weight
+        - Link: https://fonts.google.com/specimen/Caveat
+
+    - Change the <p>Text Align</p> 
+        - To "right align"
+
+    -  Change the the root (html element) font size 
+        - To 30px
+
+
+- Create a new HTML document named "font-size.html"
+    - Assign the "font-size" of "20px" to #pixel
+    - Assign the "font-size" of "20pt" to #point
+    - Assign the "font-size" of "1em" to #em
+    - Assign the "font-size" of "1rem" to #rem
+    - Assign the "font-size of "12pt" to footer
+    - Assign the "font-size" of "xx-large" to html
+
+
+- Create a new HTML document named "font-family.html"
+    - Assign the "font-family" of '"Architects Daughter", cursive' to h1
+    - Assign the "font-family" of 'Helvetica, sans-serif' to #helvetica
+    - Assign the "font-family" of 'Arial, sans-serif' to #arial
+    - Assign the "font-family" of 'serif' to #serif
+    - Assign the "font-family" of 'sans-serif' to #sans-serif
+    - Assign the "font-family" of 'cursive' to #cursive
+    - Assign the "font-family" of 'monospace' to #monospace
+    - Assign the "font-family" of 'fantasy' to #fantasy

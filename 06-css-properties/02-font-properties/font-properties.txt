@@ -1,6 +1,72 @@
 Font Properties
 ---------------
-- The following CSS properties handles the changing the appearance of a HTML element's text size
-    - font-weight
-    - font-size
-    - font-family
+- CSS properties that handles the
+    - Changing appearance of a HTML element's text size
+
+    - CSS property "font-weight"
+        - Sets the weight of boldness of the font
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+
+    - CSS property "font-family"
+        - Specifies a prioritized list of one or more font family names
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+
+    - CSS property "font-size"
+        - Sets the font size of a HTML element's content
+        - Changing also updates the size of font relative units (e.g. em, rem) 
+        - Reference (https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+
+
+    Syntax:
+
+    <CSS_Selector> {
+        font-weight: <"normal" | "bold" | "lighter" | 100 | 900>;
+    }
+
+    <CSS_Selector> {
+        font-family: <font_family_list>;
+    }
+
+        <CSS_Selector> {
+        font-size: <"smaller" | 1.2em | 1px | 1pt | 80%>;
+    }
+
+
+- A "font-size" of "1px"
+    - Is equivalent to about 1/96th of an inch or 0.26mm (width & height)
+
+
+- The "font-size" of "1pt"
+    - It is about 1/72nd of an inch or or 0.35mm (width & height)
+
+    - Often used by applications such as Microsoft Word
+        - A font size 12 is equivalent to "12pt"
+        - Equavalent to viewing a HTML document on a browser at 100% 
+
+
+- The "font-size" of "1em" (pronounced as 'm')
+    - Referred as a "relative" font size value
+    - It is the scaled size of the target element's "parent element" 
+    - "1em" = 100% of the parent element's size_values
+
+
+- The "font-size" of "1rem"
+    - A "relative" font size value
+    - It is the scaled size of the HTML document's "root element" (i.e. <html>)
+    - "1rem" = 100% of the HTML element <html>...</html>
+
+    - NOTE: A CSS property "font-size" with a "rem" value
+        - Does NOT CHANGE the parent element's size
+        - Does CHANGE when the HTML element <html> size changes
+    
+    - It offers a consistent way to change the "font-size"
+        - Of ALL the elements within a HTML document
+        - It is RECOMMENDED to use "rem" when developing websites
+
+    - The CSS property "font-size" relationship between a child & parent elements
+        - Can very quickly get confusing
+        - Particularly when working with an external CSS file
+
+
+- The "font-size" of named values (e.g. "xx-small", "medium", etc)
+    - Referred as an "absolute" font size value
