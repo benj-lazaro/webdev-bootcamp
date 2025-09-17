@@ -1,0 +1,5 @@
+Inspecting CSS
+--------------
+- Use the Chrome browser's Developer Tools (CTRL + SHIFT + I)
+    - To apply the learned items on the given website
+    - Website (https://appbrewery.github.io/css-inspection/)
