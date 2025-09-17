@@ -1,0 +1,9 @@
+Nesting And Indentation
+-----------------------
+- When working with nested lists in a HTML document
+    - It is best that the lists and corresponding items are indented
+
+    - Allows the HTML code to be readable
+
+    - NOTE: VS Code "Prettier" automatically indents
+        - The list and its corresponding items

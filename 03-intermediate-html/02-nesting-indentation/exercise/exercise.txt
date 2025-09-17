@@ -1,4 +1,4 @@
 Exercise
 --------
 - Format the content of the attached HTML document
-    - By nesting elements and using indentation
+    - Nesting lists and its elements using indentation
