@@ -1,20 +1,21 @@
 Anchor Elements
 ---------------
-- The HTML element <a> with its attribute "href"
-    - Create a hyperlink to another HTML document, file, email or anything else with a URL
-    
-    - The value assigned to the attribute "href"
-        - Refers to the location where the hyperlink points to
+- To create a hyperlink to a
+  - HTML document, file, email address or anythin with a URL
 
-    - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+  - Use the HTML attribute "href"
+    - Followed by a "="
+    - Then the location (URL) where the hyperlink points to
+
+  - Reference (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
 
-Example:
+  Example:
 
-<p>You can reach Michael at:</p>
+  <p>You can reach Michael at:</p>
 
-<ul>
-  <li><a href="https://example.com">Website</a></li>
-  <li><a href="mailto:m.bluth@example.com">Email</a></li>
-  <li><a href="tel:+123456789">Phone</a></li>
-</ul>
+  <ul>
+    <li><a href="https://example.com">Website</a></li>
+    <li><a href="mailto:m.bluth@example.com">Email</a></li>
+    <li><a href="tel:+123456789">Phone</a></li>
+  </ul>
