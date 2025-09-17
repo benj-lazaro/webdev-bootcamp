@@ -4,14 +4,15 @@ Capstone Project
 
 
 - Project Specifications
-    - Create an HTML file named index.html
+    - Create a new HTML document named "index.html
 
-    - Use the <!DOCTYPE html> declaration at the beginning of the file
-        - To indicate that it's an HTML document
+    - Use the HTML tag <!DOCTYPE html> declaration at the beginning of the file
+        - To inform the browser that is an HTML document
 
-    - Create a head section that includes a title element with the text "My Resume"
+    - Add a <head> section that 
+        - Includes a title element with the text "My Resume"
 
-    - Inside the body section
+    - Inside the <body> section
         - Write HTML code to create an online resume covering the following aspects
             - Summary or objective statement
             - Education (list degrees, schools, and dates)
@@ -20,8 +21,9 @@ Capstone Project
             - Awards, certifications, or other achievements 
                 - List any relevant awards, certifications, or other accomplishments
 
-    - Use appropriate HTML tags to format the content of each section
-        - Such as h1 for section headings and ul or ol for lists
+    - Use appropriate HTML elements (& tags) to format the content of each section
+        - The HTML element <h1> for section headings 
+        - The HTML elements <ul> or <ol> for lists
 
     - Use HTML tags to add a profile photo of yourself
 
@@ -29,10 +31,10 @@ Capstone Project
         - Listing other aspects of your resume such as Hobbies and Contact details
 
     - Add a footer element with your name and any copyright information or other disclaimers
-        - Hint: use the MDN docs for things you don't know how to do
+        - HINT: use the MDN docs for things you don't know how to do
         - Website (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 
-    - Save the index.html file 
+    - Save the "index.html" file 
         - Open it in a web browser to ensure that it displays correctly
 
     - Add your website to your GitHub to start building your portfolio
