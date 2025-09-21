@@ -1,66 +1,72 @@
 How To Add CSS
 --------------
-Three (3) ways of adding CSS into an HTML document:
+- Three (3) ways of adding a style sheet in an HTML document
+    - Inline CSS
+        - Refers to the styling that are declared
+            - Within a starting HTML tag
+            - Uses the HTML attribute "style"
+            - Assigned with by a CSS "<property> : <value>" pair
 
-Inline
-------
-- Styles that are declared within the opening of an HTML tag
-    - Uses the global attribute "style"
-    - Assigned with a CSS "property: value" pair 
+        - Styling ONLY APPLIES to the specified targeted HTML element
+            - NOT RECOMMENDED for styling HTML elements
+            - Intended for testing purposes ONLY
 
-    <h1 style="color: blue">Style Me in Blue!</h1>
-
-    - Defined CSS style is implemented ONLY on the specific HTML tag
-        - It used for TESTING PURPOSES only
-        - Primarily for troubleshooting CSS styling-related issues (e.g. color, font, etc.)
-
-    - IMPORTANT: It has the HIGHEST ORDER of SPECIFICITY 
-    
-
-Internal
---------
-- Styles that are declared using the <style> tag
-    - Located within the <head> element
-
-    - The CSS code is written within the pair of <style> .. </style> element
-
-    - The targeted HTML element, CSS property & corresponding value
-        - Are declared within the <style> tag
-
-    <head>
-        ..
-        <style>
-            h1 {
-                color: red;
-            }
-        </style>
-    </head>
-
-    - Defined CSS style is/are implemented on targeted HTML element(s) within a HTML document
-        - This approach is NOT APPLICABLE for a multi-paged website
+        - NOTE: This has the HIGHEST order of SPECIFICITY
 
 
-External
---------
-- Styles that are declared using the <link> element
-    - Located within the <head> element
+    - Internal CSS
+        - Refers to the styling that are declared
+            - Using the HTML element <style>..</style>
+            
+        - Within the HTML element <style> defines the
+            - CSS Selector (i.e. targeted HTML element)
 
-    - The HTML attribute "rel" defines the role of the file
-        - Assigned with the value of "stylesheet"
-        - This meant that the file is a stylesheet file
+            - It's corresponding CSS "<property> : <value>" that
+                - Defines the style to be implemented on the selector
 
-    - The HTML attribute "href" defines the location of the external CSS file
-        - The external .css file contains
-            - Targeted HTML elements
-            - CSS properties and corresponding values
+        - Styling APPLIES to ALL targeted HTML elements W/IN a web page
+            - NOT APPLICABLE to a multi-page web site
 
-    <head>
-        ..
-        <link rel="stylesheet" href="style.css" />
-    </head>
 
-    - This is the commonly used method of attaching CSS to an HTML document
-    
-    - Defined CSS styles are implement on targeted HTML element(s) on ALL HTML documents
-        - Provided that an HTML document is CONNECTED to the corresponding external CSS file
-    
+    - External CSS
+        - Refers to the styling that are declared
+            - Using the self-closing HTML element <link>
+                - A child element of the HTML element <head>..</head>
+
+                - Uses the HTML attribute "rel"
+                    - To define the "role" of the file (i.e. stylesheet)
+
+                - Uses the HTML attribute "src"
+                    - To assign the location of the external ".css" file
+
+        - The external ".css" file contains the declaration of
+            - CSS Selector (i.e. targeted HTML element)
+
+            - It's corresponding CSS "<property> : <value>" that
+                - Defines the style to be implemented on the selector
+
+        - Styling APPLIES to ALL targeted HTML elements on 
+            - EVERY HTML document of a multi-paged web site
+
+            - PROVIDED that each HTML document contains a "link"
+                - To the external ".css" file
+
+
+Example:
+
+/* Inline CSS */
+<h1 style="color: blue">Style Me in Blue!</h1>
+
+
+/* Internal CSS */
+<style>
+    h1 {
+        color: red;
+    }
+</style>
+
+
+/* External CSS */
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
