@@ -1,0 +1,17 @@
+Exercise
+--------
+- Without touching the HTML document "index.html"
+
+- Apply the corresponding CSS rules
+    - TODO 1: Set the CSS for all paragraph tags to "color: red"
+
+    - TODO 2: Set the CSS for all elements with a class of "note" to "font-size: 20px"
+
+    - TODO 3: Set the CSS for the element with an id of "id-selector-demo" to "color: green"
+
+    - TODO 4: Set the CSS for the li elements that 
+        - Have the "value" attribute set to "4" to have "color: blue"
+
+    - TODO 5: Set all elements to have "text-align: center"
+
+- Save changes on the external CSS file "style.css"
