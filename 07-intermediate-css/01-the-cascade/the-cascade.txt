@@ -1,0 +1,80 @@
+The Cascade: Specificity & Inheritance
+--------------------------------------
+- The "cascading" part of CSS is relevant to the
+    - Multiple different and conflicting CSS rules that
+        - Targets the same HTML Element 
+
+    - It determines which CSS rule is higher up in the hierarchy
+
+    - Identifies w/c CSS rule gets applied & w/c gets ignored
+        - This refers to the "order of importance"
+
+    - Multiple styles can be applied to the same HTML Element
+        - The CSS rule with the higest "order of importance"
+        - Gets to apply its style rendered on the targeted element
+
+    - This is how the "cascade" in CSS comes to be
+
+
+- There are four (4) broad categories that 
+    - Determines the overall "order of importance" of a CSS rule
+
+    - 1. Postion (Lowest Order)
+        - Refers to the order of importance based on
+            - The position of a CSS rule relative to other rules w/in a CSS Selector
+        
+            - The lower positioned (last one declared) CSS rule
+                - Override its predecessor 
+                - Get to be rendered on the browser
+
+        - Same applies to CSS Selectors with identical CSS rules
+            - A CSS Selector declared at the power part of the a CSS stylesheet
+                - Override its predecessor
+                - Get its identical CSS rule(s) to be rendered on the browser
+
+        - NOTE: The lower in the position within a stylesheet
+            - The MORE IMPORTANT it (i.e. CSS rule) is
+
+
+    - 2. Specificity
+        - Refers to how specific a CSS Selector is
+            - In terms of the elements that the CSS rule(s) is being applied to
+
+        - Element Selector
+            - It is the LEAST SPECIFIC
+
+        - Class Selector (.i.e .<class_nam>)
+            - It is higher than the Element Selector
+            - It is lower than the Attribute Selector
+
+        - Attribute Selector (i.e. <element>[<attribute>])
+            - It is higher than the Class Selector
+            - It is lower than the ID Selector
+
+        - ID Selector (i.e. #<id_name>)
+            - It is the MOST SPECIFIC
+            - It overrides the rest of the CSS Selector types
+
+
+    - 3. Type
+        - Refers to the how a CSS stylesheet is 
+            - Applied or implemented to an HTML document
+
+        - External CSS
+            - It has the LEAST level of importance
+            - It can be overriden by an Internal or Inline CSS
+
+        - Internal CSS
+            - It has a higher level of importance over an External CSS
+            - It can be overriden by an Inline CSS
+
+        - Inline CSS
+            - It has the highest order of importance
+
+
+    - 4. Importance (Highest Order)
+        - Refers to the use of the keyword "!important"
+            - Placed besides a CSS rule
+            - It DISREGARDS previously define CSS rules
+
+        - NOTE: It can be OVERRIDEN with Specificity

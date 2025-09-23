@@ -1,0 +1,18 @@
+Exercise
+--------
+- On the attached starter files
+    - Work ONLY on the "style.css"
+
+    - Implement CSS Selectors & their rules
+        - Beneath the line "Place your CSS rules below "
+
+
+- TO DO:
+    - Declare an ID Selector named "outer-box"
+        - Set the property "background-color" to "purple"
+
+    - Declare a Class Selector named "inner-box"
+        - Set the property "background-color" to "red"
+
+    - Declare another Class Selector named "white-text"
+        - Set the property "background-color" to "white"
